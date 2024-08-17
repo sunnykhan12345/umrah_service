@@ -7,10 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        sm: "576px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1283px",
+        "2xl": "1320px",
+      },
+
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'home': "url('/images/home.jpg')",
+        'h': "url('/images/home2.jpg')",
+        'he': "url('/images/again.jpg')",
+        'gallery': "url('/images/gallery.jpg')",
+        'plan': "url('/images/plan.jpg')",
+
       },
     },
   },

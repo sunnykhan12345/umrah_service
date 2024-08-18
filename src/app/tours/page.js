@@ -1,6 +1,5 @@
 import Navbar from "@/components/navbar/Navbar"
 import ShadcnTry from "@/components/ShadcnTry"
-import SlickTry from "@/components/SlickTry"
 import SwipperTry from "@/components/SwipperTry"
 
 const page = () => {

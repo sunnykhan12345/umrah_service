@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 import hotel from "../../public/images/hotel.jpg"
 import v_cons from "../../public/images/visa_consultance.jpg"
 import ticketing from "../../public/images/ticketing.jpg"

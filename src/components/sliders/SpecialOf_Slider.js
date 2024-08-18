@@ -7,7 +7,6 @@ import {
     CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
-import Link from "next/link";
 import gallery1 from "../../../public/images/gallery.png"
 const SpecialOf_Slider = () => {
     return (

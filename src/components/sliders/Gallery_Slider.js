@@ -79,6 +79,7 @@ const Gallery_Slider = () => {
             <CarouselPrevious className="text-dark-red absolute xl:-left-20 lg:-left-8 md:top-1/2 lg:-translate-y-1/2 top-auto lg:-bottom-[65px] -bottom-[30px]  md:hidden left-0 " />
             <CarouselNext className="text-dark-red absolute xl:-right-20 lg:-right-8 md:top-1/2 lg:-translate-y-1/2 top-auto lg:-bottom-[65px] -bottom-[30px]  md:hidden right-0 " />
         </Carousel>
+        
     )
 }
 

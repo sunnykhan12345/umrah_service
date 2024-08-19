@@ -1,10 +1,21 @@
+import Home from '@/Common_Comp/Home'
+import Couple_Special_Pack from '@/components/Couple_SPecial_Pack'
+import Review from '@/components/Review'
+import Saved_Packages from '@/components/Saved_Packages'
+import Popular_Packages from '@/components/umrahpackage/coponents/Popular_Packages'
 import React from 'react'
 
 const page = () => {
     return (
-        <div>
-            umrah packagae
-        </div>
+        <>
+            <div>
+                <Home />
+                <Popular_Packages />
+                <Review />
+                <Saved_Packages />
+                <Couple_Special_Pack />
+            </div>
+        </>
     )
 }
 

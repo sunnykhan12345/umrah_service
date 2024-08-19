@@ -10,12 +10,17 @@ module.exports = {
   prefix: "",
   theme: {
     container: {
-      center: true,
-      padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        sm: "576px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1283px",
+        "2xl": "1320px",
       },
     },
+
+
+
     extend: {
       backgroundImage: {
         'home': "url('/images/home.png')",

@@ -1,5 +1,5 @@
+import Home from "@/Common_Comp/Home";
 import Gallery from "@/components/Gallery";
-import Home from "@/components/Home";
 import Offers from "@/components/Offers";
 import PlanTravel from "@/components/PlanTravel";
 import PopularToures from "@/components/PopularToures";

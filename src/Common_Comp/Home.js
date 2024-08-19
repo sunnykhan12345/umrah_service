@@ -1,12 +1,16 @@
 
-import Navbar from "@/components/navbar/Navbar";
+import Navbar from "@/Common_Comp/navbar/Navbar";
+import HomeSlider from "../components/sliders/HomeSlider";
 
 const Home = () => {
     return (
         <>
             <div className="">
+                <HomeSlider />
+            </div>
+            {/* <div className="">
                 <section className="">
-                    <div className=" inset-0 bg-home bg-no-repeat bg-cover  lg:h-[791px] h-[620px] ">
+                    <div className="inset-0 bg-home bg-no-repeat bg-cover  lg:h-[791px] h-[620px] ">
                         <Navbar />
                         <div className="md:container mx-auto px-5 lg:py-[114px] py-14">
                             <h1 className="text-white font-bold lg:text-[79px] sm:text-[50px] text-[30px] lg:leading-[91px] sm:leading-[60px]">
@@ -20,7 +24,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-            </div>
+            </div> */}
         </>
     );
 };

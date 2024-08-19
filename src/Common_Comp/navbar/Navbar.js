@@ -6,7 +6,7 @@ import logo from "../../../public/images/logo.png"
 import Image from 'next/image';
 const Navbar = () => {
     return (
-        <nav className='lg:py-5 py-3 relative'>
+        <nav className='lg:py-5 py-3 absolute w-full z-10 '>
             <div className='lg:container mx-auto px-5 text-white'>
                 <div className='flex justify-between items-center'>
                     <Link href="/">
@@ -14,10 +14,12 @@ const Navbar = () => {
                     </Link>
                     <ul className='lg:flex hidden items-center gap-6'>
                         <li>
-                            <Link href="/" className='text-[17px] opacity-90 font-normal border-b pb-1.5 border-white'>Home</Link>
+                            <Link href="/" className='text-[17px] opacity-90 font-normal border-b pb-1.5 border-white font-
+Helvetica'>Home</Link>
                         </li>
                         <li>
-                            <Link href="/tours" className='text-[17px] opacity-90 font-normal hover:border-b pb-1.5 hover:border-white'>Tours</Link>
+                            <Link href="/tours" className='text-[17px] opacity-90 font-normal hover:border-b pb-1.5 hover:border-white font-
+Helvetica'>Tours</Link>
                         </li>
                         <li>
                             <Link href="/visa" className='text-[17px] opacity-90 font-normal hover:border-b pb-1.5 hover:border-white'>Visa</Link>

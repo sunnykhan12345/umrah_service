@@ -16,7 +16,7 @@ const MobileMenu = () => {
                     className="w-9 h-9 flex items-center justify-center rounded-lg bg-greenishblue"
                     onClick={() => setOpen(!open)}
                 >
-                    <RiMenuLine className="w-5 h-5 " />
+                    <RiMenuLine className="w-5 h-5 text-black" />
                 </button>
 
                 {/* Overlay for the background when the menu is open */}

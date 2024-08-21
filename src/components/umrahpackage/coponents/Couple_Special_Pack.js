@@ -11,12 +11,12 @@ import Image from "next/image";
 import pop1 from "../../public/images/pop1.jpg"
 import pop2 from "../../public/images/op2.jpg"
 import pop3 from "../../public/images/op3.jpg"
-import { Heart } from "../../public/icons/icons"
-import { Star } from "../../public/icons/icons"
-import { Visa } from "../../public/icons/icons"
-import { Flight } from "../../public/icons/icons"
-import { Hoteling } from "../../public/icons/icons"
-import { Travels } from "../../public/icons/icons"
+import { Heart } from "../../../../public/icons/icons"
+import { Star } from "../../../../public/icons/icons"
+import { Visa } from "../../../../public/icons/icons"
+import { Flight } from "../../../../public/icons/icons"
+import { Hoteling } from "../../../../public/icons/icons"
+import { Travels } from "../../../../public/icons/icons"
 const Couple_Special_Pack = () => {
     return (
         <>

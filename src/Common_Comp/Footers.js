@@ -1,6 +1,11 @@
 import Link from 'next/link'
 import logo from "../../public/images/logo.png"
 import Image from 'next/image'
+import { Facebook } from "../../public/icons/icons"
+import { InstaGram } from "../../public/icons/icons"
+import { Twitter } from "../../public/icons/icons"
+import { Youtube } from "../../public/icons/icons"
+import { Fac } from "../../public/icons/icons"
 const Footers = () => {
     return (
         <div>
@@ -70,6 +75,29 @@ const Footers = () => {
                                     <li className='list-none'>
                                         <Link href="/" className='text-sm font-normal text-[#808080]'>Kurumsal Bilgiler</Link>
                                     </li>
+                                    <div className='flex gap-4 md:pt-14 pt-3 items-center sm:justify-start justify-center'>
+                                        <li>
+                                            <Link href="/" className=''>
+                                                <Facebook />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                <InstaGram className="hover:opacity-15 w-[3] h-[3]" />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                <Twitter />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                <Youtube />
+                                            </Link>
+                                        </li>
+
+                                    </div>
                                 </ul>
                             </div>
                         </div>

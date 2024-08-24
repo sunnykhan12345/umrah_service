@@ -16,7 +16,7 @@ const MobileMenu = () => {
                     className="w-9 h-9 flex items-center justify-center rounded-lg bg-greenishblue"
                     onClick={() => setOpen(!open)}
                 >
-                    <RiMenuLine className="w-5 h-5 text-black" />
+                    <RiMenuLine className="w-5 h-5 text-white" />
                 </button>
 
                 {/* Overlay for the background when the menu is open */}
@@ -43,6 +43,9 @@ const MobileMenu = () => {
                     <ul className='flex flex-col gap-6'>
                         <li>
                             <Link href="/" className='text-sm font-medium text-black border-b pb-1.5'>Home</Link>
+                        </li>
+                        <li>
+                            <Link href="/flights" className='text-sm font-medium text-black '>flights</Link>
                         </li>
                         <li>
                             <Link href="/" className='text-sm font-medium text-black '>Tours</Link>

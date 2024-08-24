@@ -17,12 +17,14 @@ export default function HomePage() {
   return (
     <>
       <Home />
-      <PopularToures />
-      <Offers />
-      <ServiceProvide />
-      <PlanTravel />
-      <VisaConsultance />
-      <Gallery />
+      <div className="bg-customBackground">
+        <PopularToures />
+        <Offers />
+        <ServiceProvide />
+        <PlanTravel />
+        <VisaConsultance />
+        <Gallery />
+      </div>
     </>
   );
 }

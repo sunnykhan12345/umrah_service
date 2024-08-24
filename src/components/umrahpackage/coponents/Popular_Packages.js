@@ -20,9 +20,10 @@ import { Travels } from "../../../../public/icons/icons"
 const Popular_Packages = () => {
     return (
         <>
-            <div className='lg:-mt-[150px] md:-mt-[180px] -mt-[130px] 2xl:mt-0'>
+            {/* <div className='lg:-mt-[150px] md:-mt-[103px]  2xl:mt-0'> */}
+            <div className='lg:-mt-[150px] md:-mt-[103px]  2xl:mt-0'>
                 <div className="lg:container mx-auto px-5">
-                    <h2 className='lg:text-[35px] text-2xl font-bold text-white  relative capitalize pb-8 sm:text-start  text-center '>other popular tours</h2>
+                    <h2 className='lg:text-[35px] text-2xl font-bold md:text-white text-black  relative capitalize pb-8 sm:text-start  text-center '>other popular tours</h2>
                     <div className='grid 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
                         <div className='w-full'>
                             <div className="bg-white py-3 px-5 rounded-2xl shadow-2xl relative">

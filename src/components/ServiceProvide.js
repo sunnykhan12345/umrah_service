@@ -8,7 +8,7 @@ const ServiceProvide = () => {
     return (
         <div className='lg:mt-20 mt-8'>
             <div className="lg:container mx-auto px-5 ">
-                <h2 className='lg:text-[35px] text-2xl font-bold font-Helvetica text-black capitalize lg:mb-10 mb-6 sm:text-start text-center border-l-8  border-blue-300 sm:py-2 py-1 sm:pl-2 pl-1 rounded-full'
+                <h2 className='lg:text-[35px] text-2xl font-bold font-Helvetica text-black capitalize lg:mb-10 mb-6 sm:text-start text-center border-l-8  border-blue-300 sm:py-2 py-1 sm:pl-2 pl-1 '
 
                 >service we provide</h2>
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 md:gap-8'>

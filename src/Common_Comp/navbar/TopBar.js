@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const TopBar = () => {
     return (
-        <div className='lg:py-3 py-0 bg-gradient-to-r from-blue-200 to-white'>
+        <div className='lg:py-3 py-0 bg-gradient-to-r from-blue-200 to-white top-0 left-0 w-full sticky'>
             <div className='lg:container mx-auto px-5'>
                 <div className='lg:flex justify-between gap-4  hidden'>
                     <Link href="/" className="lg:block flex">

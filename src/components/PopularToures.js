@@ -16,15 +16,15 @@ const PopularToures = () => {
                 >other popular tours</h2>
                 <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-3"
                 >
-                    {/* <div className='flex-shrink-0 w-full relative group  cursor-pointer'
+                    <div className='flex-shrink-0 w-full relative group  cursor-pointer'
                     >
                         <div className="overflow-hidden rounded-2xl">
                             <Image src={dubai} alt='' width={343} height={221} className='h-[221px] w-[343px] sm:mx-0 mx-auto object-cover rounded-2xl cursor-pointer transform transition-transform duration-300 ease-in-out group-hover:scale-105' />
                         </div>
                         <h5 className="absolute -mt-14 md:left-5 left-8 text-2xl font-medium font-Helvetica text-white cursor-pointer capitalize  transition-colors duration-300 ease-in-out">dubai</h5>
                         <div className="absolute inset-0 bg-black bg-opacity-25 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out"></div>
-                    </div> */}
-                    <div className='bg-white rounded-md z-20  shadow-md hover:shadow-lg overflow-hidden'>
+                    </div>
+                    {/* <div className='bg-white rounded-md z-20  shadow-md hover:shadow-lg overflow-hidden'>
                         <Image src={dubai} alt='' className='w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-105  ' />
                         <div className='px-5 mb-6'>
                             <h3 className='my-3 text-[20px] font-medium '>Dubai Visit Visa</h3>
@@ -42,8 +42,8 @@ const PopularToures = () => {
                                 <i class="fas fa-star text-green-400"><IoStarHalf /></i>
                             </div>
                             {/* <div class="h-1 w-full max-w-md bg-gradient-to-r from-blue-500 via-blue-400 to-green-400"></div> */}
-                        </div>
-                    </div>
+                    {/* </div>
+                    </div>  */}
                     <div className='flex-shrink-0 w-full relative group  cursor-pointer'
                     >
                         <div className="overflow-hidden rounded-2xl">

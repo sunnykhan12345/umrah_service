@@ -17,6 +17,10 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        'conatct': "url('/images/cont.jpg')",
+
+      },
       colors: {
         // 'blue-white-gradient': 'linear-gradient(to right, #e0f7fa, #ffffff)',
         'blue-white-gradient': "#000000",

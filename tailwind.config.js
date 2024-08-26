@@ -19,6 +19,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'conatct': "url('/images/cont.jpg')",
+        'flight': "url('/images/sky1.jfif')"
 
       },
       colors: {

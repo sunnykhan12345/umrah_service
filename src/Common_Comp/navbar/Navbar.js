@@ -5,6 +5,7 @@ import logo from '../../../public/images/logo.png';
 import Image from 'next/image';
 import DropdownMenus from './DropDowns';
 
+
 const Navbar = () => {
     return (
         <>
@@ -74,7 +75,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/umrahpackage"
+                                    href="/visa"
                                     className="text-white text-[17px] opacity-90 font-medium font-Helvetica relative group pb-6 hover:border-b-4 hover:border-white duration-500"
                                     data-aos="fade-left"
                                     data-aos-duration="800"

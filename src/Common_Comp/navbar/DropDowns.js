@@ -174,7 +174,7 @@ export const DropdownMenus = () => {
                     </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent
-                    className="mt-5 ml-2 left- bg-customBackground text-base
+                    className="mt-5 ml-2 left- bg-white text-base
                      z-10 w-full" // Adjusting position with ml-2 for some space
                     align="start" // Ensures it aligns with the left of the trigger button
                     sideOffset={5} // Adds some offset space from the button
@@ -249,25 +249,25 @@ export const DropdownMenus = () => {
                     </ul>
                     {/* Additional content */}
                     <DropdownMenuSeparator />
-                    <DropdownMenuCheckboxItem
+                    {/* <DropdownMenuCheckboxItem
                         checked={showStatusBar}
                         onCheckedChange={setShowStatusBar}
                     >
                         Status Bar
-                    </DropdownMenuCheckboxItem>
-                    <DropdownMenuCheckboxItem
+                    </DropdownMenuCheckboxItem> */}
+                    {/* <DropdownMenuCheckboxItem
                         checked={showActivityBar}
                         onCheckedChange={setShowActivityBar}
                         disabled
                     >
                         Activity Bar
-                    </DropdownMenuCheckboxItem>
-                    <DropdownMenuCheckboxItem
+                    </DropdownMenuCheckboxItem> */}
+                    {/* <DropdownMenuCheckboxItem
                         checked={showPanel}
                         onCheckedChange={setShowPanel}
                     >
                         Panel
-                    </DropdownMenuCheckboxItem>
+                    </DropdownMenuCheckboxItem> */}
                 </DropdownMenuContent>
             </DropdownMenu>
         </div>

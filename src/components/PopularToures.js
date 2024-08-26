@@ -41,7 +41,7 @@ const PopularToures = () => {
                 <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-3"
                 >
                     {
-                        popularcard.map((popcard,) => (
+                        popularcard.map((popcard) => (
                             <div key={popcard.id} className='flex-shrink-0 w-full relative group  cursor-pointer'>
                                 <div className="overflow-hidden rounded-2xl">
                                     <Image src={popcard.img} alt='' width={343} height={221} className='h-[221px] w-[343px] sm:mx-0 mx-auto object-cover rounded-2xl cursor-pointer transform transition-transform duration-300 ease-in-out group-hover:scale-105' />

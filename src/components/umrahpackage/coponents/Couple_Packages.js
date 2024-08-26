@@ -55,7 +55,7 @@ const couplepcard = [
 const Couple_Packages = () => {
     return (
         <>
-            <div className='lg:mt-20 mt-8 '>
+            <div className='lg:mt-20 mt-8 mb-20'>
                 <div className="lg:container mx-auto px-5">
                     <h2 className='lg:text-[35px] text-2xl font-bold text-black  relative capitalize pb-8 sm:text-start  text-center '>Couple Special</h2>
                     <div className='grid 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>

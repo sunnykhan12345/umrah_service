@@ -5,6 +5,38 @@ import logo from '../../../public/images/logo.png';
 import Image from 'next/image';
 import DropdownMenus from './DropDowns';
 
+const Links = [
+    {
+        id: 1,
+        name: "home",
+        url: "/",
+    },
+    {
+        id: 2,
+        name: "flight",
+        url: "/flights",
+    },
+    {
+        id: 3,
+        name: <DropdownMenus />,
+        url: "/",
+    },
+    {
+        id: 4,
+        name: "tours",
+        url: "/tours",
+    },
+    {
+        id: 5,
+        name: "visa",
+        url: "/visa",
+    },
+    {
+        id: 6,
+        name: "contact ",
+        url: "/contact",
+    },
+]
 
 const Navbar = () => {
     return (
@@ -25,90 +57,16 @@ const Navbar = () => {
 
                         {/* Desktop Menu */}
                         <ul className="lg:flex gap-10 hidden items-center">
-                            <li>
-                                <Link
-                                    href="/"
-                                    className="relative group text-[17px] opacity-50 font-medium font-Helvetica pb-6 text-white hover:border-b-4 hover:border-white"
-                                    data-aos="fade-left"
-                                    data-aos-duration="800"
-                                    data-aos-delay="200"
-                                    data-aos-easing="ease-in-out"
-                                >
-                                    Home
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/flights"
-                                    className="relative group text-[17px] opacity-50 font-medium font-Helvetica pb-6 text-white hover:border-b-4 hover:border-white"
-                                    data-aos="fade-left"
-                                    data-aos-duration="800"
-                                    data-aos-delay="200"
-                                    data-aos-easing="ease-in-out"
-                                >
-                                    Flights
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/"
-                                    className="text-[17px] opacity-90 font-medium font-Helvetica text-white hover:text-orange-500 duration-500 pb-6 hover:border-b-4 hover:border-white"
-                                    data-aos="fade-left"
-                                    data-aos-duration="800"
-                                    data-aos-delay="400"
-                                    data-aos-easing="ease-in-out"
-                                >
-                                    <DropdownMenus />
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/visa"
-                                    className="text-white text-[17px] opacity-90 font-medium font-Helvetica group relative duration-500 pb-6 hover:border-b-4 hover:border-white"
-                                    data-aos="fade-left"
-                                    data-aos-duration="800"
-                                    data-aos-delay="600"
-                                    data-aos-easing="ease-in-out"
-                                >
-                                    Tours
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/visa"
-                                    className="text-white text-[17px] opacity-90 font-medium font-Helvetica relative group pb-6 hover:border-b-4 hover:border-white duration-500"
-                                    data-aos="fade-left"
-                                    data-aos-duration="800"
-                                    data-aos-delay="800"
-                                    data-aos-easing="ease-in-out"
-                                >
-                                    Visa
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/umrah-packages"
-                                    className="text-white text-[17px] opacity-90 font-medium font-Helvetica relative group pb-6 hover:border-b-4 hover:border-white duration-500"
-                                    data-aos="fade-left"
-                                    data-aos-duration="800"
-                                    data-aos-delay="800"
-                                    data-aos-easing="ease-in-out"
-                                >
-                                    Umrah Packages
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/contact"
-                                    className="text-[17px] opacity-90 font-medium font-Helvetica relative group pb-6 hover:border-b-4 hover:border-white duration-500"
-                                    data-aos="fade-left"
-                                    data-aos-duration="800"
-                                    data-aos-delay="800"
-                                    data-aos-easing="ease-in-out"
-                                >
-                                    Contact Us
-                                </Link>
-                            </li>
+                            {
+                                Links.map((link) => (
+                                    <li key={link.id}>
+                                        <Link href={link.url} className='capitalize text-[17px]  font-medium font-Helvetica pb-6 text-white hover:border-b-4 hover:border-white'>
+                                            {link.name}
+                                        </Link>
+                                    </li>
+                                ))
+                            }
+
                         </ul>
 
                         {/* Mobile Menu Toggle */}

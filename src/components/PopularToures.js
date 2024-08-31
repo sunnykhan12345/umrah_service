@@ -33,11 +33,11 @@ const popularcard = [
 const PopularToures = () => {
 
     return (
-        <div className='lg:-mt-[150px] md:-mt-[103px]  2xl:mt-0 from-blue-200 to-white'>
+        <div className='mt-20  2xl:mt-0 from-blue-200 '>
             <div className="lg:container mx-auto px-5 ">
-                <h2 className='lg:text-[35px] text-2xl font-bold font-Helvetica  md:text-white text-black  relative capitalize pb-8 sm:text-start  text-center'
+                <h2 className='lg:text-[35px] text-2xl font-bold font-Helvetica text-black capitalize lg:mb-10 mb-6 sm:text-start text-center border-l-8  border-blue-300 sm:py-2 py-1 sm:pl-2 pl-1 '
 
-                >other popular tours</h2>
+                >other popular tour's</h2>
                 <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-3"
                 >
                     {

@@ -17,9 +17,13 @@ module.exports = {
       },
     },
     extend: {
+      boxShadow: {
+        'custom': '0 0 10px 0 rgba(88, 96, 109, 0.14)', // Define your custom shadow here
+      },
       backgroundImage: {
         'conatct': "url('/images/cont.jpg')",
-        'flight': "url('/images/sky1.jfif')"
+        'flight': "url('/images/sky1.jfif')",
+        'home': "url('/images/home.png')"
 
       },
       colors: {

@@ -107,7 +107,7 @@ export function Acc() {
                         <TabsList className="flex lg:gap-3 gap-1 justify-start mb-4">
                             <TabsTrigger value="account" className='border border-blue-200 text-xs capitalize rounded-full bg-blue-50'>one way</TabsTrigger>
                             <TabsTrigger value="return" className='border border-blue-200 text-xs capitalize rounded-full bg-blue-50'>return</TabsTrigger>
-                            <TabsTrigger value="two way" className='border border-blue-200 text-xs capitalize rounded-full bg-blue-50'>multy city</TabsTrigger>
+                            <TabsTrigger value="multi" className='border border-blue-200 text-xs capitalize rounded-full bg-blue-50'>multy city</TabsTrigger>
                         </TabsList>
                         <div className=" grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center gap-[2rem] ">
 

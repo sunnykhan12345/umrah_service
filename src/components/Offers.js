@@ -1,6 +1,8 @@
 
+import Multi_Carasul from "./sliders/Multi_Carasul"
 import SpecialOf_Slider from "./sliders/SpecialOf_Slider"
 const Offers = () => {
+
     return (
         <div className='lg:mt-20 mt-8 from-blue-200 to-white'>
             <div className="lg:container mx-auto px-5 from-blue-200 to-white">
@@ -9,8 +11,9 @@ const Offers = () => {
                     data-aos-duration={window.innerWidth >= 600 ? "1200" : null}
                     data-aos-easing={window.innerWidth >= 600 ? "ease-in-out" : null}
 
-                >special Offers for hajj & umrah</h2>
-                <SpecialOf_Slider />
+                >special umrah packages 2024 </h2>
+                {/* <SpecialOf_Slider /> */}
+                <Multi_Carasul />
             </div>
         </div>
     )

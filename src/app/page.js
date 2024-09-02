@@ -1,5 +1,7 @@
 'use client'
 import Home from "@/Common_Comp/Home";
+import Combos from "@/components/Combos";
+import Contact from "@/components/Contact";
 import Gallery from "@/components/Gallery";
 import Home_Banner from "@/components/Home_Banner";
 import Offers from "@/components/Offers";
@@ -21,10 +23,12 @@ export default function HomePage() {
         <Home_Banner />
         <Offers />
         <PopularToures />
+        <Combos />
         <ServiceProvide />
         <PlanTravel />
         <VisaConsultance />
         <Gallery />
+        <Contact />
       </div>
     </>
   );

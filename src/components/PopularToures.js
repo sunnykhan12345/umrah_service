@@ -54,7 +54,7 @@ const PopularToures = () => {
                         popularcard.map((popcard) => (
                             <div key={popcard.id} className='flex-shrink-0 w-full relative group  cursor-pointer'>
                                 <div className="relative overflow-hidden rounded-2xl group">
-                                    <Link href={`/internationaltour/${popcard.id}`}>
+                                    <Link href={`/internationaltour/${popcard.title}`}>
                                         <Image
                                             src={popcard.img}
                                             alt=''

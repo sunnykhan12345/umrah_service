@@ -167,11 +167,13 @@
 
 import React from 'react'
 import Acc from '../tours/Acc'
+import Flight_Category from './components/Flight_Category'
 
 const page = () => {
     return (
         <div>
             <Acc />
+            <Flight_Category />
         </div>
     )
 }

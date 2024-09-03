@@ -11,7 +11,7 @@ const Banner = () => {
                         Umrah Packages <br /> 2024
                     </h1>
                     <button className="bg-[#2379BD] lg:mt-10 mt-7 text-white  sm:py-4 sm:px-[35px] py-3 px-6 rounded-[30px]  hover:opacity-80 ease-in-out duration-500">
-                        Let's Get Started
+                        Let&apos;s Get Started
                     </button>
                 </div>
             </div>

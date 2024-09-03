@@ -20,7 +20,7 @@ const packCard = [
         id: 1,
         img: img2,
         title: "Executive Umrah Package for 08 Nights",
-        para: "This is the perfect Umrah package offer's for pilgrims seeking a carefree, luxurious journey to Makkah...",
+        para: "This is the perfect Umrah package offer&apos;s for pilgrims seeking a carefree, luxurious journey to Makkah...",
         price: 500,
         day: 8,
 
@@ -29,7 +29,7 @@ const packCard = [
         id: 2,
         img: img3,
         title: "Executive Umrah Package for 08 Nights",
-        para: "This is the perfect Umrah package offer's for pilgrims seeking a carefree, luxurious journey to Makkah...",
+        para: "This is the perfect Umrah package offer&apos;s for pilgrims seeking a carefree, luxurious journey to Makkah...",
         price: 600,
         day: 10,
 
@@ -38,7 +38,7 @@ const packCard = [
         id: 3,
         img: img5,
         title: "Executive Umrah Package for 08 Nights",
-        para: "This is the perfect Umrah package offer's for pilgrims seeking a carefree, luxurious journey to Makkah...",
+        para: "This is the perfect Umrah package offer&apos;s for pilgrims seeking a carefree, luxurious journey to Makkah...",
         price: 600,
         day: 6
 

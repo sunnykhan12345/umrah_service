@@ -76,12 +76,3 @@
 }
 
 
-
-.slick-prev{
-  background-color: red !important;
-  padding: 2px;
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

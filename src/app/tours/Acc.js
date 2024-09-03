@@ -74,30 +74,48 @@ export function Acc() {
                                 <MdFlightTakeoff className="w-5 h-5 text-red-600 flex-shrink-0" />
                                 <div>
                                     <p className="text-lg font-semibold mb-[0.2rem] capitalize">departure city</p>
-                                    <input className="outline-none border-none" type="text" placeholder="where are you going?" />
+                                    <input className="outline-none border-none md:text-lg text-[13px]" type="text" placeholder="from where ?" />
                                 </div>
                             </div>
                             {/* second search input  */}
                             <div className="flex items-center gap-x-6">
                                 <MdOutlineFlightLand className="w-5 h-5 text-red-600 flex-shrink-0" />
                                 <div>
-                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">arriyal city</p>
-                                    <input className="outline-none border-none" type="text" placeholder="Where are you arriving?" />
+                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize"> Arrival city</p>
+                                    <input className="outline-none border-none md:text-lg text-[13px]" type="text" placeholder="to where ?" />
                                 </div>
                             </div>
                             {/* start date */}
                             <div className="flex items-center gap-x-6">
                                 <SlCalender className="w-4 h-4 text-red-600 flex-shrink-0" />
                                 <div>
-                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">start date</p>
-                                    <input className="outline-none border-none" type="date" />
+                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">Departure</p>
+                                    <input className="outline-none border-none md:text-lg text-sm" type="date" />
                                 </div>
                             </div>
 
                             {/* search */}
-                            <Link href="/" className="text-center flex flex-col justify-center items-center rounded px-14 md:px-28 bg-red-500 text-white py-2.5 overflow-hidden group relative hover:bg-gradient-to-r hover:from-red-500 hover:to-red-400 hover:ring-2 hover:ring-offset-2 hover:ring-red-400 transition-all ease-out duration-300">
-                                <span className="relative font-bold">search</span>
-                            </Link>
+                            <div>
+                                <Link href="/" className="text-center flex flex-col justify-center items-center rounded px-14 md:px-28 bg-red-500 text-white py-2.5 overflow-hidden group relative hover:bg-gradient-to-r hover:from-red-500 hover:to-red-400 hover:ring-2 hover:ring-offset-2 hover:ring-red-400 transition-all ease-out duration-300">
+                                    <span className="relative font-bold">search</span>
+                                </Link>
+
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Name" className=" rounded-md py-2 px-2 border-2 border-dashed focus:outline-none" />
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Email" className="rounded-md py-2 px-2 border-2 border-dashed focus:outline-none" />
+
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Phone Number" className="rounded-md py-2 px-2 border-2 border-dashed focus:outline-none" />
+
+                            </div>
+                            <div className="">
+                                <button className="rounded-md py-2 px-2 border-2 border-dashed bg-red-500 text-white hover:bg-red-300 duration-500 ease-in-out hover:text-white focus:outline-none " >Send Query</button>
+
+                            </div>
                         </div>
                     </div>
                     {/* second button return */}
@@ -116,32 +134,49 @@ export function Acc() {
                                 <MdFlightTakeoff className="w-5 h-5 text-red-600 flex-shrink-0" />
                                 <div>
                                     <p className="text-lg font-semibold mb-[0.2rem] capitalize">departure city</p>
-                                    <input className="outline-none border-none" type="text" placeholder="where are you going?" />
+                                    <input className="outline-none border-none md:text-lg text-[13px]" type="text" placeholder="from where ?" />
                                 </div>
                             </div>
                             {/* second search input  */}
                             <div className="flex items-center gap-x-6">
                                 <MdOutlineFlightLand className="w-5 h-5 text-red-600 flex-shrink-0" />
                                 <div>
-                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">arriyal city</p>
-                                    <input className="outline-none border-none" type="text" placeholder="Where are you arriving?" />
+                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">Arrival city</p>
+                                    <input className="outline-none border-none md:text-lg text-[13px]" type="text" placeholder="to where ?" />
                                 </div>
                             </div>
                             {/* start date */}
                             <div className="flex items-center gap-x-6">
                                 <SlCalender className="w-4 h-4 text-red-600 flex-shrink-0" />
                                 <div>
-                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">start date</p>
-                                    <input className="outline-none border-none" type="date" />
+                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">departure</p>
+                                    <input className="outline-none border-none md:text-base text-sm" type="date" />
                                 </div>
                             </div>
                             {/* end date */}
                             <div className="flex items-center gap-x-6">
                                 <SlCalender className="w-4 h-4 text-red-600 flex-shrink-0" />
                                 <div>
-                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">end date</p>
-                                    <input className="outline-none border-none" type="date" />
+                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">Arrival </p>
+                                    <input className="outline-none border-none md:text-base text-sm" type="date" />
                                 </div>
+                            </div>
+
+                            {/* form */}
+                            <div>
+                                <input type="text" placeholder="Name" className=" rounded-md py-2 px-2 border-2 border-dashed focus:outline-none" />
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Email" className="rounded-md py-2 px-2 border-2 border-dashed focus:outline-none" />
+
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Phone Number" className="rounded-md py-2 px-2 border-2 border-dashed focus:outline-none" />
+
+                            </div>
+                            <div className="">
+                                <button className="rounded-md py-2 px-2 border-2 border-dashed focus:outline-none hover:bg-red-300 bg-red-500 text-white  duration-500 ease-in-out hover:text-white " >Send Query</button>
+
                             </div>
 
                             {/* search */}
@@ -170,31 +205,31 @@ export function Acc() {
                                 <MdFlightTakeoff className="w-5 h-5 text-red-600 flex-shrink-0" />
                                 <div>
                                     <p className="text-lg font-semibold mb-[0.2rem] capitalize">departure city</p>
-                                    <input className="outline-none border-none capitalize" type="text" placeholder="flying from (city or airport)?" />
+                                    <input className="outline-none border-none capitalize md:text-base text-[13px]" type="text" placeholder="flying from (city or airport)?" />
                                 </div>
                             </div>
                             {/* second search input  */}
                             <div className="flex items-center gap-x-6">
                                 <MdOutlineFlightLand className="w-5 h-5 text-red-600 flex-shrink-0" />
                                 <div>
-                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">arriyal city</p>
-                                    <input className="outline-none border-none capitalize" type="text" placeholder="flying to (city or airport)?" />
+                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">Arrival city</p>
+                                    <input className="outline-none border-none capitalize  md:text-base text-[13px]" type="text" placeholder="flying to (city or airport)?" />
                                 </div>
                             </div>
                             {/* start date */}
                             <div className="flex items-center gap-x-6">
                                 <SlCalender className="w-4 h-4 text-red-600 flex-shrink-0" />
                                 <div>
-                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">start date</p>
-                                    <input className="outline-none border-none" type="date" />
+                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">departure</p>
+                                    <input className="outline-none border-none md:text-base text-sm" type="date" />
                                 </div>
                             </div>
                             {/* end date */}
                             <div className="flex items-center gap-x-6">
                                 <SlCalender className="w-4 h-4 text-red-600 flex-shrink-0" />
                                 <div>
-                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">end date</p>
-                                    <input className="outline-none border-none" type="date" />
+                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">Arrival</p>
+                                    <input className="outline-none border-none md:text-base text-sm" type="date" />
                                 </div>
                             </div>
                             {/* second row */}
@@ -202,33 +237,49 @@ export function Acc() {
                             <div className="flex items-center gap-x-6">
                                 <MdFlightTakeoff className="w-5 h-5 text-red-600 flex-shrink-0" />
                                 <div>
-                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">departure city</p>
-                                    <input className="outline-none border-none capitalize" type="text" placeholder="flying from (city or airport)?" />
+                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize ">departure city</p>
+                                    <input className="outline-none border-none capitalize  md:text-base text-[13px]" type="text" placeholder="flying from (city or airport)?" />
                                 </div>
                             </div>
                             {/* second search input  */}
                             <div className="flex items-center gap-x-6">
                                 <MdOutlineFlightLand className="w-5 h-5 text-red-600 flex-shrink-0" />
                                 <div>
-                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">arriyal city</p>
-                                    <input className="outline-none border-none capitalize" type="text" placeholder="flying to (city or airport)?" />
+                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">Arrival city</p>
+                                    <input className="outline-none border-none capitalize  md:text-base text-[13px]" type="text" placeholder="flying to (city or airport)?" />
                                 </div>
                             </div>
                             {/* start date */}
                             <div className="flex items-center gap-x-6">
                                 <SlCalender className="w-4 h-4 text-red-600 flex-shrink-0" />
                                 <div>
-                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">start date</p>
-                                    <input className="outline-none border-none" type="date" />
+                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">departure</p>
+                                    <input className="outline-none border-none md:text-base text-sm" type="date" />
                                 </div>
                             </div>
                             {/* end date */}
                             <div className="flex items-center gap-x-6">
                                 <SlCalender className="w-4 h-4 text-red-600 flex-shrink-0" />
                                 <div>
-                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">end date</p>
-                                    <input className="outline-none border-none" type="date" />
+                                    <p className="text-lg font-semibold mb-[0.2rem] capitalize">Arrival</p>
+                                    <input className="outline-none border-none md:text-base text-sm" type="date" />
                                 </div>
+                            </div>
+                            {/* form */}
+                            <div>
+                                <input type="text" placeholder="Name" className=" rounded-md py-2 px-2 border-2 border-dashed focus:outline-none" />
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Email" className="rounded-md py-2 px-2 border-2 border-dashed focus:outline-none" />
+
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Phone Number" className="rounded-md py-2 px-2 border-2 border-dashed focus:outline-none" />
+
+                            </div>
+                            <div className="">
+                                <button className="rounded-md py-2 px-2 border-2 border-dashed focus:outline-none hover:bg-red-300 bg-red-500 text-white duration-500 ease-in-out hover:text-white " >Send Query</button>
+
                             </div>
 
                             {/* search */}
@@ -243,6 +294,7 @@ export function Acc() {
                         <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-100 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease-linear"></span>
                         <span className="relative font-bold">search</span>
                     </Link>
+
                     {/* second button return */}
                 </TabsContent>
             </Tabs>

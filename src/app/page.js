@@ -9,6 +9,7 @@ import PlanTravel from "@/components/PlanTravel";
 import PopularToures from "@/components/PopularToures";
 import ServiceProvide from "@/components/ServiceProvide";
 import VisaConsultance from "@/components/VisaConsultance";
+// import ServiceSlider from "@/components/sliders/ServiceSlider"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -24,6 +25,7 @@ export default function HomePage() {
         <Offers />
         <PopularToures />
         <Combos />
+        {/* <ServiceSlider /> */}
         <ServiceProvide />
         <PlanTravel />
         <VisaConsultance />

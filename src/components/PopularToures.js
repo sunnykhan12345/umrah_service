@@ -35,7 +35,7 @@ const popularcard = [
         title: "balu",
     },
     {
-        id: 3,
+        id: 6,
         img: thailand,
         title: "turkey",
     },
@@ -53,9 +53,34 @@ const PopularToures = () => {
                     {
                         popularcard.map((popcard) => (
                             <div key={popcard.id} className='flex-shrink-0 w-full relative group  cursor-pointer'>
-                                <div className="overflow-hidden rounded-2xl">
-                                    <Image src={popcard.img} alt='' width={400} height={300} className='h-[300px] w-[400px] sm:mx-0 mx-auto object-cover rounded-2xl cursor-pointer transform transition-transform duration-300 ease-in-out group-hover:scale-105' />
+                                <div className="relative overflow-hidden rounded-2xl group">
+                                    <Link href={`/internationaltour/${popcard.id}`}>
+                                        <Image
+                                            src={popcard.img}
+                                            alt=''
+                                            width={400}
+                                            height={300}
+                                            className='h-[300px] w-[400px] sm:mx-0 mx-auto object-cover rounded-2xl cursor-pointer transform transition-transform duration-300 ease-in-out group-hover:scale-105'
+                                        />
+                                        {/* Overlay that appears on hover */}
+                                        <div className="absolute inset-0  bg-black bg-opacity-50 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                                            <span className="text-white font-semibold text-lg flex items-center gap-2">View Details <FaArrowRight /></span>
+                                        </div>
+                                    </Link>
                                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
                                 <h5 className="absolute -mt-14 md:left-5 left-8 text-2xl font-medium font-Helvetica text-white cursor-pointer capitalize  transition-colors duration-300 ease-in-out">{popcard.title}</h5>
                                 {/* <div className="absolute inset-0 bg-black bg-opacity-25 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out"></div> */}
                             </div>

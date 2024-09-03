@@ -53,25 +53,11 @@ export const DropdownMenus = () => {
                                 exective umrah packages
                             </Link>
                         </li>
-                        <li>
-                            <Link href="/" className="capitalize text-[13px] hover:bg-blue-500 hover:text-white py-2 px-3 rounded-lg">
-                                exective umrah packages
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/" className="capitalize text-[13px] hover:bg-blue-500 hover:text-white py-2 px-3 rounded-lg">
-                                exective umrah packages
-                            </Link>
-                        </li>
+
                     </ul>
                     <ul className="flex gap-4 p-3">
-                        <li>
-                            <Link href="/umrah-packages/economy" className="capitalize text-[13px] hover:bg-blue-500 hover:text-white py-2 px-3 rounded-lg">
-                                economy umrah packages
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/" className="capitalize text-[13px] hover:bg-blue-500 hover:text-white py-2 px-3 rounded-lg">
+                        <li className="">
+                            <Link href="/umrah-packages/exective" className="capitalize text-[13px] hover:bg-blue-500 hover:text-white py-2 px-3 rounded-lg">
                                 exective umrah packages
                             </Link>
                         </li>
@@ -80,20 +66,11 @@ export const DropdownMenus = () => {
                                 exective umrah packages
                             </Link>
                         </li>
-                        <li>
-                            <Link href="/" className="capitalize text-[13px] hover:bg-blue-500 hover:text-white py-2 px-3 rounded-lg">
-                                exective umrah packages
-                            </Link>
-                        </li>
+
                     </ul>
                     <ul className="flex gap-4 p-3">
-                        <li>
-                            <Link href="/" className="capitalize text-[13px] hover:bg-blue-500 hover:text-white py-2 px-3 rounded-lg">
-                                exective umrah packages
-                            </Link>
-                        </li>
-                        <li >
-                            <Link href="/" className="capitalize text-[13px] hover:bg-blue-500 hover:text-white py-2 px-3 rounded-lg">
+                        <li className="">
+                            <Link href="/umrah-packages/exective" className="capitalize text-[13px] hover:bg-blue-500 hover:text-white py-2 px-3 rounded-lg">
                                 exective umrah packages
                             </Link>
                         </li>
@@ -102,12 +79,9 @@ export const DropdownMenus = () => {
                                 exective umrah packages
                             </Link>
                         </li>
-                        <li>
-                            <Link href="/" className="capitalize text-[13px] hover:bg-blue-500 hover:text-white py-2 px-3 rounded-lg">
-                                exective umrah packages
-                            </Link>
-                        </li>
+
                     </ul>
+
                     {/* Additional content */}
                     <DropdownMenuSeparator />
                     {/* <DropdownMenuCheckboxItem

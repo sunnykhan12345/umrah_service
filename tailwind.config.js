@@ -23,7 +23,10 @@ module.exports = {
       backgroundImage: {
         'conatct': "url('/images/cont.jpg')",
         'flight': "url('/images/sky1.jfif')",
-        'home': "url('/images/home.png')"
+        'home': "url('/images/home.png')",
+        'exective': "url('/images/images.jfif')",
+        'pac': "url('/images/k.jpg')",
+        'pack': "url('/images/24.jpg')",
 
       },
       colors: {

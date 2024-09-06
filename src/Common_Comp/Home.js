@@ -1,16 +1,11 @@
-
-
 import HomeSlider from "../components/sliders/HomeSlider";
 
 const Home = () => {
-    return (
-        <>
-            {/* <div className=""> */}
-            <HomeSlider />
-            {/* </div> */}
-
-        </>
-    );
+  return (
+    <>
+      <HomeSlider />
+    </>
+  );
 };
 
 export default Home;

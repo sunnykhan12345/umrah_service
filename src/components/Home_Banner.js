@@ -1,13 +1,12 @@
+"use client";
 
-'use client'
-
-import Acc from "@/app/tours/Acc"
+import Acc from "@/app/tours/Acc";
 const Home_Banner = () => {
-    return (
-        <div>
-            <Acc />
-        </div>
-    )
-}
+  return (
+    <div>
+      <Acc />
+    </div>
+  );
+};
 
-export default Home_Banner
+export default Home_Banner;

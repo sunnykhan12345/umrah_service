@@ -61,10 +61,10 @@ export function TablePackage() {
       <TableHeader>
         <TableRow className="bg-gray-500 text-white">
           <TableHead className="text-center w-[100px]">Makkah</TableHead>
-          <TableHead className="text-center border-r-2 border-l-2">Madinah</TableHead>
-          <TableHead className="text-center">Total Nights</TableHead>
+          <TableHead className="text-center  ">Madinah</TableHead>
+          {/* <TableHead className="text-center">Total Nights</TableHead>
           <TableHead className="border-r-2 border-l-2 text-center">Double</TableHead>
-          <TableHead className=" text-center">Triple</TableHead>
+          <TableHead className=" text-center">Triple</TableHead> */}
         </TableRow>
       </TableHeader>
       <TableBody className="border-2">
@@ -73,11 +73,11 @@ export function TablePackage() {
             key={invoice.invoice}
             className="hover:bg-gray-100 transition-colors duration-200 ease-in-out "
           >
-            <TableCell className="font-medium border-2">{invoice.invoice}</TableCell>
-            <TableCell className="border-2 text-center">{invoice.paymentStatus}</TableCell>
+            <TableCell className="font-medium ">{invoice.invoice}</TableCell>
+            <TableCell className="text-center">{invoice.paymentStatus}</TableCell>
+            {/* <TableCell className="border-2 text-center">{invoice.paymentMethod}</TableCell>
             <TableCell className="border-2 text-center">{invoice.paymentMethod}</TableCell>
-            <TableCell className="border-2 text-center">{invoice.paymentMethod}</TableCell>
-            <TableCell className=" border-2 text-center">{invoice.totalAmount}</TableCell>
+            <TableCell className=" border-2 text-center">{invoice.totalAmount}</TableCell> */}
           </TableRow>
         ))}
       </TableBody>

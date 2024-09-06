@@ -1,6 +1,9 @@
+
+import Query_Form from '@/Common_Comp/Query_Form'
 import React from 'react'
 
 const Flight_Category = () => {
+
     return (
         <div className="bg-customBackground">
             <div className='lg:container mx-auto px-5 lg:py-20 py-10'>
@@ -26,6 +29,8 @@ const Flight_Category = () => {
 
                     </p>
                 </div>
+                <Query_Form />
+
             </div>
         </div>
     )

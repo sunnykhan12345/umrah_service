@@ -6,6 +6,7 @@ import logo from '../../../public/images/logo.png';
 import Image from 'next/image';
 import DropdownMenus from './DropDowns';
 import { usePathname } from 'next/navigation';
+import { Drop } from '@/app/visa/components/Drop';
 
 const Links = [
     { id: 1, name: "home", url: "/" },
@@ -16,7 +17,7 @@ const Links = [
     {
         id: 4, name: "tours", url: "/tours",
     },
-    { id: 5, name: "visa", url: "/visa", },
+    { id: 5, name: <Drop />, url: "/visa", },
     {
         id: 6, name: "contact ", url: "/contact",
     },
@@ -43,7 +44,7 @@ const Navbar = () => {
                             {
                                 Links.map((link) => (
                                     <li key={link.id}>
-                                        <Link href={link.url} className={`capitalize text-[17px]  font-medium font-Helvetica pb-6 text-white  ${pathname == link.url ? "text-green-600 border-b-4 border-white" : ""}`}>
+                                        <Link href={link.url} className={`capitalize text-base  font-bold font-Helvetica pb-6 text-white  ${pathname == link.url ? "text-green-600 border-b-4 border-white" : ""}`}>
                                             {link.name}
                                         </Link>
                                     </li>

@@ -1,16 +1,21 @@
 
-"use client";
-
 import Image from "next/image";
 import dubai from "../../../../public/images/dubai.jpg";
 import singapore from "../../../../public/images/singapore.jpg";
 import thailand from "../../../../public/images/thailand.jpg";
 import malysia from "../../../../public/images/malysia.jpg";
-import Link from "next/link";
-import { FaArrowRight } from "react-icons/fa";
-import { IoStarHalf } from "react-icons/io5";
 import like from "../../../../public/images/like.png"
 import { FaPhoneAlt } from "react-icons/fa";
+import { RiCheckboxCircleFill } from "react-icons/ri";
+import TourForm from "@/Common_Comp/TourForm";
+import CountryFlag from "@/Common_Comp/CountryFlag";
+import Thialind_Desciption from "@/Common_Comp/tour_desciptions/Thialind_Desciption";
+import Dubai_Desciption from "@/Common_Comp/tour_desciptions/Dubai_Desciption";
+import SingaPore_Desciption from "@/Common_Comp/tour_desciptions/SingaPore_Description";
+import Malaysia_Desciption from "@/Common_Comp/tour_desciptions/Malaysia_Desciption";
+import Balu_Sescription from "@/Common_Comp/tour_desciptions/Balu_Sescription";
+import Turkey_Desciption from "@/Common_Comp/tour_desciptions/Turkey_Desciption";
+
 const popularcard = [
     {
         id: 1,
@@ -81,60 +86,53 @@ const popularcard = [
         img: singapore,
         day: "30 days",
         title: "singapore",
-        name: "UAE Tourist Visa",
-        lis: "UAE Immigration Fees",
+        name: "Singapore Tourist Visa",
+        lis: "singapore Immigration Fees",
         lis2: "Visa Service Charges",
         list3: "All Taxes",
         list4: "Tourist Visa",
-        list5: "30 Days Duration of stay in UAE",
+        list5: "30 Days Duration of stay in singapore",
         list6: "60 Days Validity (Travel Time )",
         price: "USD 160",
-        like: like,
         subCards: [
             {
                 id: 101,
-                img: dubai,
-                title: "Dubai",
+                title: "singapore",
                 day: "60 days",
-                name: "UAE Tourist Visa",
-                lis: "UAE Immigration Fees",
+                name: "singapore Tourist Visa",
+                lis: "singapore Immigration Fees",
                 lis2: "Visa Service Charges",
                 lis3: "All Taxes",
                 lis4: "Extended Tourist Visa",
-                lis5: "60 Days Duration of stay in UAE",
+                lis5: "60 Days Duration of stay in singapore",
                 lis6: "90 Days Validity (Travel Time)",
                 price: "USD 250",
-                like: like,
             },
             {
                 id: 102,
-                img: dubai,
-                title: "Dubai - Business Visa",
+                title: "singapore - Business Visa",
                 day: "30 days",
-                name: "UAE Business Visa",
-                lis: "UAE Immigration Fees",
+                name: "singapore Business Visa",
+                lis: "singapore Immigration Fees",
                 lis2: "Visa Service Charges",
                 lis3: "All Taxes",
                 lis4: "Business Visa",
-                lis5: "30 Days Duration of stay in UAE",
+                lis5: "30 Days Duration of stay in singapore",
                 lis6: "60 Days Validity (Travel Time)",
                 price: "USD 200",
-                like: like,
             },
             {
                 id: 103,
-                img: dubai,
-                title: "Dubai - Tourist Package",
+                title: "singapore - Tourist Package",
                 day: "7 days",
-                name: "UAE Tourist Package",
+                name: "singapore Tourist Package",
                 lis: "Flight Included",
                 lis2: "Hotel Stay",
                 lis3: "City Tour",
                 lis4: "Desert Safari",
-                lis5: "7 Days Duration of stay in UAE",
+                lis5: "7 Days Duration of stay in singapore",
                 lis6: "10 Days Validity (Travel Time)",
                 price: "USD 500",
-                like: like,
             }
         ]
     },
@@ -142,21 +140,205 @@ const popularcard = [
         id: 3,
         img: thailand,
         title: "Thailand",
+        day: "30 days",
+        title: "thailand",
+        name: "thailand Tourist Visa",
+        lis: "thailand Immigration Fees",
+        lis2: "Visa Service Charges",
+        list3: "All Taxes",
+        list4: "Tourist Visa",
+        list5: "30 Days Duration of stay in thailand",
+        list6: "60 Days Validity (Travel Time )",
+        price: "USD 160",
+        subCards: [
+            {
+                id: 101,
+                title: "thailand",
+                day: "60 days",
+                name: "thailand Tourist Visa",
+                lis: "thailand Immigration Fees",
+                lis2: "Visa Service Charges",
+                lis3: "All Taxes",
+                lis4: "Extended Tourist Visa",
+                lis5: "60 Days Duration of stay in thailand",
+                lis6: "90 Days Validity (Travel Time)",
+                price: "USD 250",
+                like: like,
+            },
+            {
+                id: 102,
+                title: "thailand - Business Visa",
+                day: "30 days",
+                name: "thailand Business Visa",
+                lis: "thailand Immigration Fees",
+                lis2: "Visa Service Charges",
+                lis3: "All Taxes",
+                lis4: "Business Visa",
+                lis5: "30 Days Duration of stay in thailand",
+                lis6: "60 Days Validity (Travel Time)",
+                price: "USD 200",
+                like: like,
+            },
+            {
+                id: 103,
+                title: "thailand - Tourist Package",
+                day: "7 days",
+                name: "thailand Tourist Package",
+                lis: "Flight Included",
+                lis2: "Hotel Stay",
+                lis3: "City Tour",
+                lis4: "Desert Safari",
+                lis5: "7 Days Duration of stay in thailand",
+                lis6: "10 Days Validity (Travel Time)",
+                price: "USD 500",
+                like: like,
+            }
+        ]
     },
     {
         id: 4,
-        img: malysia,
-        title: "malysia",
+        img: thailand,
+        title: "Balu",
+        day: "30 days",
+        title: "malaysia",
+        name: "malaysia Tourist Visa",
+        lis: "thailand Immigration Fees",
+        lis2: "Visa Service Charges",
+        list3: "All Taxes",
+        list4: "Tourist Visa",
+        list5: "30 Days Duration of stay in thailand",
+        list6: "60 Days Validity (Travel Time )",
+        price: "USD 160",
+
+        subCards: [
+            {
+                id: 104,
+                title: "malaysia",
+                day: "60 days",
+                name: "malaysia Tourist Visa",
+                lis: "malaysia Immigration Fees",
+                lis2: "Visa Service Charges",
+                lis3: "All Taxes",
+                lis4: "Extended Tourist Visa",
+                lis5: "60 Days Duration of stay in malaysia",
+                lis6: "90 Days Validity (Travel Time)",
+                price: "USD 250",
+                like: like,
+            },
+            {
+                id: 102,
+                title: "malaysia",
+                day: "60 days",
+                name: "malaysia Tourist Visa",
+                lis: "malaysia Immigration Fees",
+                lis2: "Visa Service Charges",
+                lis3: "All Taxes",
+                lis4: "Extended Tourist Visa",
+                lis5: "60 Days Duration of stay in malaysia",
+                lis6: "90 Days Validity (Travel Time)",
+                price: "USD 250",
+                like: like,
+            },
+
+
+
+        ]
     },
     {
         id: 5,
         img: singapore,
         title: "Balu",
+        day: "30 days",
+        name: "Balu Tourist Visa",
+        lis: "Balu Immigration Fees",
+        lis2: "Visa Service Charges",
+        list3: "All Taxes",
+        list4: "Tourist Visa",
+        list5: "30 Days Duration of stay in Balu",
+        list6: "60 Days Validity (Travel Time )",
+        price: "USD 160",
+        subCards: [
+            {
+                id: 104,
+                title: "Balu",
+                day: "60 days",
+                name: "Balu Tourist Visa",
+                lis: "Balu Immigration Fees",
+                lis2: "Visa Service Charges",
+                lis3: "All Taxes",
+                lis4: "Extended Tourist Visa",
+                lis5: "60 Days Duration of stay in Balu",
+                lis6: "90 Days Validity (Travel Time)",
+                price: "USD 250",
+                like: like,
+            },
+            {
+                id: 102,
+                title: "Balu",
+                day: "60 days",
+                name: "Balu Tourist Visa",
+                lis: "Balu Immigration Fees",
+                lis2: "Visa Service Charges",
+                lis3: "All Taxes",
+                lis4: "Extended Tourist Visa",
+                lis5: "60 Days Duration of stay in Balu",
+                lis6: "90 Days Validity (Travel Time)",
+                price: "USD 250",
+                like: like,
+            },
+
+
+
+        ]
+
     },
     {
         id: 6,
         img: thailand,
         title: "Turkey",
+        id: 4,
+        day: "30 days",
+        name: "Turkey Tourist Visa",
+        lis: "Turkey Immigration Fees",
+        lis2: "Visa Service Charges",
+        list3: "All Taxes",
+        list4: "Tourist Visa",
+        list5: "30 Days Duration of stay in Turkey",
+        list6: "60 Days Validity (Travel Time )",
+        price: "USD 160",
+        subCards: [
+            {
+                id: 104,
+                title: "Tureky",
+                day: "60 days",
+                name: "Tureky Tourist Visa",
+                lis: "Tureky Immigration Fees",
+                lis2: "Visa Service Charges",
+                lis3: "All Taxes",
+                lis4: "Extended Tourist Visa",
+                lis5: "60 Days Duration of stay in Tureky",
+                lis6: "90 Days Validity (Travel Time)",
+                price: "USD 250",
+                like: like,
+            },
+            {
+                id: 102,
+                title: "Tureky",
+                day: "60 days",
+                name: "Tureky Tourist Visa",
+                lis: "Tureky Immigration Fees",
+                lis2: "Visa Service Charges",
+                lis3: "All Taxes",
+                lis4: "Extended Tourist Visa",
+                lis5: "60 Days Duration of stay in Tureky",
+                lis6: "90 Days Validity (Travel Time)",
+                price: "USD 250",
+                like: like,
+            },
+
+
+
+        ]
     },
 ];
 
@@ -176,7 +358,7 @@ const Page = ({ params: { tour } }) => {
                     alt=""
                     className="object-cover w-full h-[40vh]"
                 />
-                <h2 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white lg:text-6xl text-3xl font-bold">
+                <h2 className="absolute top-1/2 left-1/2 capitalize transform -translate-x-1/2 -translate-y-1/2 text-white lg:text-6xl text-3xl font-bold">
                     {tourData.title} visit visa
                 </h2>
             </div>
@@ -185,34 +367,35 @@ const Page = ({ params: { tour } }) => {
                     <div className="">
                         <div className="flex items-start flex-wrap gap-5">
                             {/* First Card */}
-                            <div className="w-full md:w-[100%] lg:w-[70%] bg-white lg:p-4 p-2 ">
+                            <div className="w-full md:w-[100%] lg:w-[70%] bg-white shadow-lg rounded-lg  lg:p-4 p-2 ">
                                 <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 mx-auto">
-                                    <div className="rounded-lg shadow-lg ">
-                                        <h4 className="py-2 text-[20px] font-semibold bg-blue-500 text-white rounded-tl-md rounded-tr-md text-center">{tourData.day}</h4>
-                                        <p className="text-center py-3 border-b text-lg font-bold">{tourData.name}</p>
+                                    <div className="rounded-lg shadow-lg " key={tourData.id}>
+                                        <h4 className="py-2 text-[20px] font-semibold bg-blue-500 relative text-white rounded-tl-md rounded-tr-md text-center">{tourData.day}</h4>
+                                        <span className="bg-[#FEF3E2] font-bold   absolute -rotate-6 -mt-16  p-3 rounded-tl-2xl text-black">{tourData.day}</span>
+                                        <p className="text-center py-3 border-b text-lg font-bold capitalize">{tourData.name}</p>
                                         <ul className="lg:px-3 px-1 my-5 border-b pb-5">
                                             <div className="flex items-center gap-3">
-                                                <Image src={like} alt="" width={28} height={28} className="sm:w-7 sm:h-7 h-5 w-5 object-cover" />
+                                                <RiCheckboxCircleFill className="text-blue-500 w-6 h-6" />
                                                 <li className="text-base text-center py-3 font-medium text-black">{tourData.lis}</li>
                                             </div>
                                             <div className="flex items-center gap-3">
-                                                <Image src={like} alt="" width={28} height={28} className="sm:w-7 sm:h-7 h-5 w-5 object-cover" />
-                                                <li className="text-base text-center py-3 font-medium text-black">{tourData.lis2}</li>
+                                                <RiCheckboxCircleFill className="text-blue-500 w-6 h-6" />
+                                                <li className="text-base text-center py-3 font-medium text-black ">{tourData.lis2}</li>
                                             </div>
                                             <div className="flex items-center gap-3">
-                                                <Image src={like} alt="" width={28} height={28} className="sm:w-7 sm:h-7 h-5 w-5 object-cover" />
+                                                <RiCheckboxCircleFill className="text-blue-500 w-6 h-6" />
                                                 <li className="text-base text-center py-3 font-medium text-black">{tourData.list3}</li>
                                             </div>
                                             <div className="flex items-center gap-3">
-                                                <Image src={like} alt="" width={28} height={28} className="sm:w-7 sm:h-7 h-5 w-5 object-cover" />
+                                                <RiCheckboxCircleFill className="text-blue-500 w-6 h-6" />
                                                 <li className="text-base text-center py-3 font-medium text-black">{tourData.list4}</li>
                                             </div>
                                             <div className="flex items-center gap-3">
-                                                <Image src={like} alt="" width={28} height={28} className="sm:w-7 sm:h-7 h-5 w-5 object-cover" />
+                                                <RiCheckboxCircleFill className="text-blue-500 w-6 h-6" />
                                                 <li className="text-base text-center py-3 font-medium text-black">{tourData.list4}</li>
                                             </div>
                                             <div className="flex items-center gap-3">
-                                                <Image src={like} alt="" width={28} height={28} className="sm:w-7 sm:h-7 h-5 w-5 object-cover" />
+                                                <RiCheckboxCircleFill className="text-blue-500 w-6 h-6" />
                                                 <li className="text-base text-start py-3 font-medium text-black">{tourData.list6}</li>
                                             </div>
                                         </ul>
@@ -226,35 +409,36 @@ const Page = ({ params: { tour } }) => {
                                             <h4 className="py-2 text-[20px] font-semibold bg-blue-500 text-white rounded-tl-md rounded-tr-md text-center">
                                                 {subCard.day}
                                             </h4>
-                                            <p className="text-center py-3 border-b text-lg font-bold">{subCard.name}</p>
+                                            <span className="bg-[#FEF3E2] font-bold   absolute -rotate-6 -mt-16  p-3 rounded-tl-2xl text-black">{subCard.day}</span>
+                                            <p className="text-center py-3 border-b text-lg font-bold capitalize">{subCard.name}</p>
                                             <ul className="lg:px-3 px-1 my-5 border-b pb-5">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={like} alt="" width={28} height={28} className="sm:w-7 sm:h-7 h-5 w-5 object-cover" />
+                                                    <RiCheckboxCircleFill className="text-blue-500 w-6 h-6" />
                                                     <li className="text-base text-center py-3 font-medium text-black">{subCard.lis}</li>
                                                 </div>
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={like} alt="" width={28} height={28} className="sm:w-7 sm:h-7 h-5 w-5 object-cover" />
+                                                    <RiCheckboxCircleFill className="text-blue-500 w-6 h-6" />
                                                     <li className="text-base text-center py-3 font-medium text-black">{subCard.lis2}</li>
 
                                                 </div>
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={like} alt="" width={28} height={28} className="sm:w-7 sm:h-7 h-5 w-5 object-cover" />
-                                                    <li className="text-base text-center py-3 font-medium text-black">{subCard.lis2}</li>
+                                                    <RiCheckboxCircleFill className="text-blue-500 w-6 h-6" />
+                                                    <li className="text-base text-center py-3 font-medium text-black">{subCard.lis3}</li>
 
                                                 </div>
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={like} alt="" width={28} height={28} className="sm:w-7 sm:h-7 h-5 w-5 object-cover" />
-                                                    <li className="text-base text-center py-3 font-medium text-black">{subCard.lis2}</li>
+                                                    <RiCheckboxCircleFill className="text-blue-500 w-6 h-6" />
+                                                    <li className="text-base text-center py-3 font-medium text-black">{subCard.lis4}</li>
+
+                                                </div>
+                                                <div className="flex items-center gap-1">
+                                                    <RiCheckboxCircleFill className="text-blue-500 w-6 h-6 flex  flex-shrink-0" />
+                                                    <li className="text-base text-center py-3  font-medium text-black">{subCard.lis5}</li>
 
                                                 </div>
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={like} alt="" width={28} height={28} className="sm:w-7 sm:h-7 h-5 w-5 object-cover" />
-                                                    <li className="text-base text-center py-3 font-medium text-black">{subCard.lis2}</li>
-
-                                                </div>
-                                                <div className="flex items-center gap-3">
-                                                    <Image src={like} alt="" width={28} height={28} className="sm:w-7 sm:h-7 h-5 w-5 object-cover" />
-                                                    <li className="text-base text-center py-3 font-medium text-black">{subCard.lis2}</li>
+                                                    <RiCheckboxCircleFill className="text-blue-500 w-6 h-6" />
+                                                    <li className="text-base text-center py-3 font-medium text-black">{subCard.lis6}</li>
 
                                                 </div>
 
@@ -265,37 +449,34 @@ const Page = ({ params: { tour } }) => {
                                         </div>
                                     ))}
                                 </div>
-                                <div>
-                                    <p className="py-8 font-light">Are you ready to experience the magic of Dubai? Plan your visit hassle-free with our Dubai Visit Visa services. From the iconic Burj Khalifa to the enchanting desert landscapes, Dubai has something for everyone. Whether you're a tourist, reuniting with family, or exploring business opportunities, your visa needs are covered.
-                                    </p>
-                                    <h2 className="text-blue-500 font-medium text-lg">Dubai Visit Visa Requirements</h2>
-                                    <p className="font-light py-2">Look at the below table and understand the Dubai visa online requirements.</p>
-                                    <p className="py-5 font-light"><span className="font-bold">Valid Passport:</span> Your passport should be valid for at least six months from the date of entry into Dubai.
-                                    </p>
-                                    <p className="py-5 font-light"><span className="font-bold">Visa Application Form:</span> Complete the Dubai visa application form accurately. This is often provided by the visa sponsor</p>
-                                    <p className="py-5 font-light"><span className="font-bold">Passport-Sized Photos:</span>  Provide recent passport-sized photographs as per the specifications outlined by the authorities. Flight Reservation: Submit a copy of your round-trip flight reservation. This indicates your intention to leave Dubai after the visit.</p>
+                                <div className="">
+                                    {tour === 'dubai' &&
+                                        <Dubai_Desciption />
+                                    }
+                                    {tour === 'singapore' &&
+                                        <SingaPore_Desciption />
+                                    }
+                                    {tour === 'thailand' &&
+                                        <Thialind_Desciption />
+                                    }
+                                    {tour === 'malaysia' &&
+                                        <Malaysia_Desciption />
+                                    }
+                                    {tour === 'balu' &&
+                                        <Balu_Sescription />
+                                    }
+                                    {tour === 'turkey' &&
+                                        <Turkey_Desciption />
+                                    }
                                 </div>
+                                {/* add desciption here all tours eg dubai singapore thialnd etc so on 6th data */}
+
                             </div>
 
                             {/* Second Card */}
                             <div className="lg:flex flex-col  hidden w-full md:w-[48%] lg:w-[28%] ">
-                                <button className="bg-blue-500 text-white py-3 mb-5 rounded-md w-full text-lg font-medium">Request a Callback</button>
-                                <form className="flex flex-col gap-y-5">
-                                    <input type="text" placeholder="Name *" className="w-full  py-3 px-2 rounded-tl-md rounded-tr-md focus:outline-none border-none" />
-                                    <input type="text" placeholder="Email *" className="w-full  py-3 px-2 rounded-tl-md rounded-tr-md focus:outline-none border-none" />
-                                    <input type="text" placeholder="Phone Number *" className="w-full  py-3 px-2 rounded-tl-md rounded-tr-md focus:outline-none border-none" />
-                                    <textarea placeholder="Type a Message..." className="px-2 py-3 rounded-md border-none focus:outline-none"></textarea>
-                                    <button className="py-3 px-2 text-center text-lg font-medium bg-blue-100 border border-blue-200 text-black hover:opacity-50 duration-500 ease-in-out rounded-md ">Submit</button>
-
-                                </form>
-                                <div className="py-5 px-3 border-2 border-dashed mt-5 text-center">
-                                    <button className="text-base  text-blue-500">For additional information, kindly get in</button>
-                                    <p className="py-1 text-blue-500">touch via:</p>
-                                    <Link href="" className="flex items-center gap-2 justify-center mt-2">
-                                        <FaPhoneAlt className="text-blue-500" />
-                                        <h6 className="text-blue-500">(+92 3085342445)</h6>
-                                    </Link>
-                                </div>
+                                <TourForm />
+                                <CountryFlag />
                             </div>
                         </div>
 

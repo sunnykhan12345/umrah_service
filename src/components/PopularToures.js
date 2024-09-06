@@ -5,8 +5,6 @@ import thailand from "../../public/images/thailand.jpg"
 import malysia from "../../public/images/malysia.jpg"
 import Link from "next/link"
 import { FaArrowRight } from "react-icons/fa";
-import { IoStarHalf } from "react-icons/io5";
-
 
 const popularcard = [
     {
@@ -27,7 +25,7 @@ const popularcard = [
     {
         id: 4,
         img: malysia,
-        title: "malysia",
+        title: "malaysia",
     },
     {
         id: 5,

@@ -23,21 +23,16 @@ import { MdOutlineFlight, MdFlightTakeoff, MdOutlineFlightLand } from "react-ico
 import Image from "next/image";
 import umrah from "../../../public/images/umrah.png";
 import visa from "../../../public/images/visa.png";
-import { PiArrowsLeftRightBold } from "react-icons/pi";
-import { RiFlightTakeoffLine } from "react-icons/ri";
-import { Dates } from "./Dates";
-import { Arriyal } from "./Arriyal";
-import { CiMap } from "react-icons/ci";
 import { SlCalender } from "react-icons/sl";
 export function Acc() {
-    const [inputType, setInputType] = useState("text");
+
 
     return (
         <div className="px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 pt-3 pb-10 bg-home bg-center bg-cover">
             {/* Navigation Links */}
             <div className="flex gap-1">
                 <Link
-                    href="#"
+                    href="/flights"
                     className="gap-1 flex items-center bg-blue-500 text-white lg:px-7 px-4 lg:py-2 py-1 rounded-tl-xl hover:opacity-70 duration-700"
                 >
                     <MdOutlineFlight className="lg:w-7 w-5 lg:h-7 h-5" />
@@ -63,9 +58,9 @@ export function Acc() {
                 <TabsContent value="account">
                     <div className="bg-white rounded-lg p-8">
                         <TabsList className="flex lg:gap-3 gap-1 justify-start mb-4">
-                            <TabsTrigger value="account" className='border border-blue-200 text-xs capitalize rounded-full bg-blue-50'>one way</TabsTrigger>
-                            <TabsTrigger value="return" className='border border-blue-200 text-xs capitalize rounded-full bg-blue-50'>return</TabsTrigger>
-                            <TabsTrigger value="multi" className='border border-blue-200 text-xs capitalize rounded-full bg-blue-50'>multy city</TabsTrigger>
+                            <TabsTrigger value="account" className='border border-blue-200 sm:text-sm text-xs capitalize rounded-full bg-blue-50'>one way</TabsTrigger>
+                            <TabsTrigger value="return" className='border border-blue-200 sm:text-sm text-xs capitalize rounded-full bg-blue-50'>return</TabsTrigger>
+                            <TabsTrigger value="multi" className='border border-blue-200 sm:text-sm text-xs capitalize rounded-full bg-blue-50'>multy city</TabsTrigger>
                         </TabsList>
                         <div className=" grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center gap-[2rem] ">
 
@@ -96,7 +91,7 @@ export function Acc() {
 
                             {/* search */}
                             <div>
-                                <Link href="/" className="text-center flex flex-col justify-center items-center rounded px-14 md:px-28 bg-red-500 text-white py-2.5 overflow-hidden group relative hover:bg-gradient-to-r hover:from-red-500 hover:to-red-400 hover:ring-2 hover:ring-offset-2 hover:ring-red-400 transition-all ease-out duration-300">
+                                <Link href="/" className="text-center text-lg font-medium capitalize  flex flex-col justify-center items-center rounded px-14 md:px-28 bg-red-500 text-white py-2.5 overflow-hidden group relative hover:bg-gradient-to-r hover:from-red-500 hover:to-red-400 hover:ring-2 hover:ring-offset-2 hover:ring-red-400 transition-all ease-out duration-300">
                                     <span className="relative font-bold">search</span>
                                 </Link>
 

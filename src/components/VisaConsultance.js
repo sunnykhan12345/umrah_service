@@ -54,8 +54,9 @@ const VisaConsultance = () => {
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 md:gap-6'>
                     {
                         viscard.map((card) => (
-                            <div key={card.id} className='bg-white rounded-md  shadow-md hover:shadow-lg overflow-hidden'>
+                            <div key={card.id} className='bg-white rounded-md  shadow-md hover:shadow-lg overflow-hidden relative'>
                                 <Image src={card.img} alt='' className='w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-105  ' />
+                                <span className="bg-[#FEF3E2] font-bold   absolute right-0 top-0  px-5 py-2 rounded-bl-2xl text-black "><sup>$</sup>{card.price}</span>
                                 <div className='px-5 mb-6'>
                                     <h3 className='my-3 text-[20px] font-medium capitalize'>{card.title}</h3>
                                     <h6 className='mt-2'>{card.para}</h6>

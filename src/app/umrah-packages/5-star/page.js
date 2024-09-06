@@ -1,17 +1,11 @@
-
-
 import React from 'react'
-import Acc from './Acc'
 
 const page = () => {
     return (
         <div>
-            <Acc />
+            5 star
         </div>
     )
 }
 
 export default page
-
-
-// // 

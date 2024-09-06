@@ -77,7 +77,10 @@ const Packages = () => {
       <div className="lg:container px-5">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
           {packCard.map((card) => (
-            <div className="bg-white rounded-md shadow-md relative hover:shadow-lg ">
+            <div
+              key={card.id}
+              className="bg-white rounded-md shadow-md relative hover:shadow-lg "
+            >
               <Image
                 src={card.img}
                 alt

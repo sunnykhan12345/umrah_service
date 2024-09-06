@@ -23,6 +23,7 @@ const SpecialOf_Slider = () => {
     <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
       {offercard.map((offercard) => (
         <div
+          key={offercard.id}
           className="flex sm:flex-row flex-col gap-5 py-6 px-4 bg-white cursor-pointer rounded-lg shadow-[0_4px_6px_rgba(0,0,0,0.1),0_1px_3px_rgba(0,0,0,0.08)] hover:shadow-xl transition-shadow duration-300 ease-in-out"
           data-aos={window.innerWidth >= 600 ? "fade-up" : null}
           data-aos-duration={window.innerWidth >= 600 ? "1000" : null}

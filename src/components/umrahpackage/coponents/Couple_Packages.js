@@ -61,7 +61,7 @@ const Couple_Packages = () => {
           </h2>
           <div className="grid 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
             {couplepcard.map((card) => (
-              <div className="w-full">
+              <div className="w-full" key={card.id}>
                 <div className="bg-white py-3 px-5 rounded-2xl shadow-2xl relative">
                   <div className="relative">
                     <Image

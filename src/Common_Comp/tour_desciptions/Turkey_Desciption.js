@@ -10,7 +10,7 @@ const Turkey_Desciption = () => {
           Are you ready to experience the magic of Turkey? Plan your visit
           hassle-free with our Turkey Visit Visa services. From the vibrant city
           of Istanbul to the beautiful tropical beaches, Turkey has something
-          for everyone. Whether you're a tourist, reuniting with family, or
+          for everyone. Whether you&apos;re a tourist, reuniting with family, or
           exploring business opportunities, your visa needs are covered.
         </p>
         <h2 className="text-blue-500 font-medium text-lg">
@@ -56,9 +56,9 @@ const Turkey_Desciption = () => {
         <p className="lg:py-3 py-5 text-justify font-light">
           <span className="font-bold">Sponsorship Letter:</span> If you have a
           sponsor in Turkey, such as a relative or a company, a sponsorship
-          letter is often required. This letter should include the sponsor's
-          details and confirmation of their willingness to take responsibility
-          for your stay.
+          letter is often required. This letter should include the
+          sponsor&apos;s details and confirmation of their willingness to take
+          responsibility for your stay.
         </p>
         <p className="lg:py-3 py-5 text-justify font-light">
           <span className="font-bold">No Objection Certificate (NOC):</span>{" "}
@@ -74,8 +74,8 @@ const Turkey_Desciption = () => {
         <p className="lg:py-3 py-5 text-justify font-light">
           <span className="font-bold">Visa Fee:</span> Pay the applicable visa
           fee. The fee varies depending on the type and duration of the visa.
-          It's important to note that the specific requirements may vary based
-          on the visit visa type and individual circumstances.
+          It&apos;s important to note that the specific requirements may vary
+          based on the visit visa type and individual circumstances.
         </p>
         <h2 className="text-xl font-bold">Apply For a Turkey Visit Visa</h2>
         <p className="lg:py-3 py-5 text-justify font-light">

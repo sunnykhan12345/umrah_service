@@ -9,7 +9,7 @@ const Dubai_Desciption = () => {
           Are you ready to experience the magic of Dubai? Plan your visit
           hassle-free with our Dubai Visit Visa services. From the iconic Burj
           Khalifa to the enchanting desert landscapes, Dubai has something for
-          everyone. Whether you're a tourist, reuniting with family, or
+          everyone. Whether you&apos;re a tourist, reuniting with family, or
           exploring business opportunities, your visa needs are covered.
         </p>
         <h2 className="text-blue-500 font-medium text-lg">
@@ -79,9 +79,9 @@ const Dubai_Desciption = () => {
         <p className="lg:py-3 py-5 text-justify font-light">
           <span className="font-bold">Sponsorship Letter:</span> If you have a
           sponsor in Dubai, such as a relative or a company, a sponsorship
-          letter is often required. This letter should include the sponsor's
-          details and confirmation of their willingness to take responsibility
-          for your stay.
+          letter is often required. This letter should include the
+          sponsor&apos;s details and confirmation of their willingness to take
+          responsibility for your stay.
         </p>
         <p className="lg:py-3 py-5 text-justify font-light">
           <span className="font-bold">No Objection Certificate (NOC):</span>{" "}
@@ -98,8 +98,8 @@ const Dubai_Desciption = () => {
         <p className="lg:py-3 py-5 text-justify font-light">
           <span className="font-bold">Visa Fee:</span> Pay the applicable visa
           fee. The fee varies depending on the type and duration of the
-          visa.It's important to note that the specific requirements may vary
-          based on the visit visa type and individual circumstances.
+          visa.It&apos;s important to note that the specific requirements may
+          vary based on the visit visa type and individual circumstances.
         </p>
         <h2 className="text-xl font-bold text-blue-500">
           Apply For a Dubai Visit Visa
@@ -246,7 +246,7 @@ const Dubai_Desciption = () => {
 
         <p className="lg:py-3 py-5 text-justify font-light">
           <span className="font-bold">E-Visa Dubai:</span> Travelers can apply
-          for and obtain a visa online before arriving in Dubai. Here’s an
+          for and obtain a visa online before arriving in Dubai. Here&apos;s an
           overview:
         </p>
         <ul className="list-disc pl-5">

@@ -2,14 +2,18 @@ import React from "react";
 import { MockData } from "./components/MockData";
 import { FaStar } from "react-icons/fa";
 import Image from "next/image";
+import { FourStar_Table } from "./components/FourStar_Table";
 const page = () => {
   return (
-    <div className="mb-60 mt-10 ">
+    <div className="pb-40 lg:pt-20 pt-10  ">
       <div className="lg:container mx-auto px-5 ">
-        <div className="pb-10 ">
-          <h1 className="text-2xl font-bold border-b-2 border-black">
-            All Inclusive Umrah Packages 2024 | 4 Star Umrah Packages
+        <div className="mb-20 text-center">
+          <h1 className="text-4xl font-extrabold pb-3 text-gray-800 tracking-wider">
+            <span className="text-blue-500">|</span> 4 Star Umrah Packages
           </h1>
+          <h2 className="text-lg font-medium text-gray-600 tracking-wide">
+            All Inclusive Umrah Packages 2024
+          </h2>
         </div>
 
         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5">
@@ -17,7 +21,7 @@ const page = () => {
             <div>
               <div
                 key={card.id}
-                className="w-full relative group overflow-hidden cursor-pointer"
+                className="w-full relative group overflow-hidden cursor-pointer "
               >
                 <Image
                   src={card.img}
@@ -69,10 +73,10 @@ const page = () => {
                 <div className="flex gap-2 justify-center  items-center bg-gray-200 py-3">
                   <p className="text-center text-black text-lg font-bold">
                     {card.price}
-                    <span className="text-gray-400 font-normal">\</span>
+                    <span className="text-black font-normal">\-</span>
                   </p>
                   <p className="text-lg font-bold uppercase">
-                    pp <span className="text-gray-400 font-normal">|</span>
+                    pp <span className="text-black font-normal">|</span>
                   </p>
                   <sub className="text-xs text-gray-600">{card.subday}</sub>
                 </div>
@@ -81,6 +85,11 @@ const page = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* 4 star table */}
+        <div className="mt-10">
+          <FourStar_Table />
         </div>
       </div>
     </div>

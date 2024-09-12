@@ -83,7 +83,7 @@ const Packages = () => {
             >
               <Image
                 src={card.img}
-                alt
+                alt="card_img"
                 className="object-cover w-full rounded-sm "
               />
               <div className="flex items-center gap-3 bg-black opacity-50 px-8 rounded-md text-white absolute -mt-14 left-20">

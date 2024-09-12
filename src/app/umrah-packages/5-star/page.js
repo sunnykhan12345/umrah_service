@@ -46,7 +46,7 @@ const page = () => {
                   five star hotel
                 </span>
                 {/* Overlay with sliding from bottom */}
-                <div className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center cursor-pointer opacity-0 group-hover:opacity-  rounded-t-xl translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <div className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center cursor-pointer opacity-0 group-hover:opacity-100  rounded-t-xl translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                   <p className="text-white text-center text-base px-6 max-w-xs leading-relaxed">
                     Experience luxury and comfort at our Makkah hotel, located
                     just steps from the Holy Mosque. Enjoy modern amenities,
@@ -99,7 +99,7 @@ const page = () => {
                   alt="Umrah Package 1"
                   className="w-full object-cover rounded-t-xl"
                 />
-                <span className="bg-[#C0D6E8] font-extrabold text-lg capitalize absolute right-0 top-0  px-5 py-4 rounded-bl-2xl text-black ">
+                <span className="bg-[#C0D6E8] font-extrabold text-sm capitalize absolute right-0 top-0  px-5 py-4 rounded-bl-2xl text-black ">
                   <sup>$</sup>
                   five star hotel
                 </span>

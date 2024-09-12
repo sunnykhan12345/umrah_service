@@ -36,8 +36,11 @@ const ServiceProvide = () => {
         </h2>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 md:gap-8">
           {serCard.map((card) => (
-            <div className="flex-shrink-0 w-full relative group cursor-pointer">
-              <div key={card.id} className="overflow-hidden rounded-2xl">
+            <div
+              key={card.id}
+              className="flex-shrink-0 w-full relative group cursor-pointer"
+            >
+              <div className="overflow-hidden rounded-2xl">
                 <Image
                   src={card.img}
                   alt=""

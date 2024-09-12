@@ -60,9 +60,9 @@ const Dubai_Desciption = () => {
         <p className="lg:py-3 py-5 text-justify  font-light">
           <span className="font-bold">Sponsorship Letter: </span> If you have a
           sponsor in Dubai, such as a relative or a company, a sponsorship
-          letter is often required. This letter should include the sponsor's
-          details and confirmation of their willingness to take responsibility
-          for your stay.{" "}
+          letter is often required. This letter should include the
+          sponsor&apos;s details and confirmation of their willingness to take
+          responsibility for your stay.{" "}
         </p>
 
         <p className="lg:py-3 py-5 text-justify  font-light">

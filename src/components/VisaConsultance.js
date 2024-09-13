@@ -61,7 +61,7 @@ const VisaConsultance = () => {
                 alt=""
                 className="w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-105  "
               />
-              <span className="bg-[#FEF3E2] font-bold   absolute right-0 top-0  px-5 py-2 rounded-bl-2xl text-black ">
+              <span className="bg-blue-700 opacity-70  font-bold   absolute right-0 top-0  px-5 py-2 rounded-bl-2xl text-white ">
                 <sup>$</sup>
                 {card.price}
               </span>

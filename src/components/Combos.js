@@ -46,7 +46,7 @@ const Combos = () => {
                 alt={card.title}
                 className="w-full relative  object-cover transition-transform duration-500 hover:scale-105"
               />
-              <span className="bg-[#FEF3E2] font-bold   absolute right-0 top-0  px-5 py-2 rounded-bl-2xl text-black ">
+              <span className="bg-blue-700 opacity-70 text-white font-bold   absolute right-0 top-0  px-5 py-2 rounded-bl-2xl  ">
                 <sup>$</sup>
                 {card.price}
               </span>

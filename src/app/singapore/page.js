@@ -31,7 +31,7 @@ const page = () => {
                       <h4 className="py-2 text-[20px] font-semibold bg-blue-500 relative text-white rounded-tl-md rounded-tr-md text-center">
                         {data.day}
                       </h4>
-                      <span className="bg-[#FEF3E2] font-bold   absolute -rotate-6 -mt-16  p-3 rounded-tl-2xl text-black">
+                      <span className="bg-blue-700 opacity-70 font-bold   absolute -rotate-6 -mt-16  p-3 rounded-tl-2xl text-white">
                         {data.day}
                       </span>
                       <p className="text-center py-3 border-b text-lg font-bold capitalize">

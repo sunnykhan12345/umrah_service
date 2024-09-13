@@ -6,7 +6,8 @@ import img4 from "../../../../public/images/k3.jpg";
 import hotel from "../../../../public/images/hotel1.jpg";
 import hotel2 from "../../../../public/images/hotel2.jpg";
 import hotel3 from "../../../../public/images/hotel3.jpg";
-import hotel4 from "../../../../public/images/hotel4.jpg";
+import hotel4 from "../../../../public/images/hotel3.jpg";
+import hotel5 from "../../../../public/images/hotel5.jpg";
 import { FiveStar_Table } from "./components/FiveStar_Table";
 
 const page = () => {
@@ -36,11 +37,13 @@ const page = () => {
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2">
               {/* Card 1 */}
               <div className=" bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 group relative">
-                <Image
-                  src={hotel3}
-                  alt="Umrah Package 1"
-                  className="w-full object-cover rounded-t-xl"
-                />
+                <div className="h-48">
+                  <Image
+                    src={hotel3}
+                    alt="Umrah Package 1"
+                    className="w-full object-cover rounded-t-xl h-full"
+                  />
+                </div>
                 <span className="bg-[#C0D6E8] font-extrabold text-lg capitalize absolute right-0 top-0  px-3 py-4 rounded-bl-2xl text-black ">
                   <sup>$</sup>
                   five star hotel
@@ -65,11 +68,13 @@ const page = () => {
 
               {/* Card 2 */}
               <div className=" bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 group relative">
-                <Image
-                  src={hotel4}
-                  alt="Umrah Package 1"
-                  className="w-full object-cover rounded-t-xl"
-                />
+                <div className="h-48">
+                  <Image
+                    src={hotel2}
+                    alt="Umrah Package 1"
+                    className="w-full object-cover rounded-t-xl h-full"
+                  />
+                </div>
                 <span className="bg-[#C0D6E8] font-extrabold text-lg capitalize absolute right-0 top-0  px-5 py-4 rounded-bl-2xl text-black ">
                   <sup>$</sup>
                   five star hotel
@@ -94,12 +99,14 @@ const page = () => {
 
               {/* Card 3 */}
               <div className=" bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 group relative">
-                <Image
-                  src={img2}
-                  alt="Umrah Package 1"
-                  className="w-full object-cover rounded-t-xl"
-                />
-                <span className="bg-[#C0D6E8] font-extrabold text-sm capitalize absolute right-0 top-0  px-5 py-4 rounded-bl-2xl text-black ">
+                <div className="h-48">
+                  <Image
+                    src={img4}
+                    alt="Umrah Package 1"
+                    className="w-full object-cover rounded-t-xl h-full"
+                  />
+                </div>
+                <span className="bg-[#C0D6E8] font-extrabold text-lg  capitalize absolute right-0 top-0  px-5 py-4 rounded-bl-2xl text-black ">
                   <sup>$</sup>
                   five star hotel
                 </span>
@@ -136,11 +143,13 @@ const page = () => {
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2">
               {/* Card 1 */}
               <div className=" bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 group relative">
-                <Image
-                  src={hotel4}
-                  alt="Umrah Package 1"
-                  className="w-full object-cover rounded-t-xl"
-                />
+                <div className="h-48">
+                  <Image
+                    src={hotel5}
+                    alt="Umrah Package 1"
+                    className="w-full object-cover rounded-t-xl h-full"
+                  />
+                </div>
                 <span className="bg-[#C0D6E8] font-extrabold text-lg capitalize absolute right-0 top-0  px-5 py-4 rounded-bl-2xl text-black ">
                   <sup>$</sup>
                   five star hotel
@@ -165,11 +174,13 @@ const page = () => {
 
               {/* Card 2 */}
               <div className=" bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 group relative">
-                <Image
-                  src={hotel4}
-                  alt="Umrah Package 1"
-                  className="w-full object-cover rounded-t-xl"
-                />
+                <div className="h-48">
+                  <Image
+                    src={hotel3}
+                    alt="Umrah Package 1"
+                    className="w-full object-cover rounded-t-xl h-full"
+                  />
+                </div>
                 <span className="bg-[#C0D6E8] font-extrabold text-lg capitalize absolute right-0 top-0  px-5 py-4 rounded-bl-2xl text-black ">
                   <sup>$</sup>
                   five star hotel
@@ -194,11 +205,13 @@ const page = () => {
 
               {/* Card 3 */}
               <div className=" bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 group relative">
-                <Image
-                  src={hotel4}
-                  alt="Umrah Package 1"
-                  className="w-full object-cover rounded-t-xl"
-                />
+                <div className="h-48">
+                  <Image
+                    src={img2}
+                    alt="Umrah Package 1"
+                    className="w-full object-cover rounded-t-xl h-full"
+                  />
+                </div>
                 <span className="bg-[#C0D6E8] font-extrabold text-lg capitalize absolute right-0 top-0  px-5 py-4 rounded-bl-2xl text-black ">
                   <sup>$</sup>
                   five star hotel

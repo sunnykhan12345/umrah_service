@@ -130,7 +130,7 @@ const Packages = () => {
           <div className="lg:w-8/12 w-full lg:pt-20 pt-10">
             <div className="bg-white p-5 rounded-lg shadow-lg">
               {/* <h2 className="text-2xl text-blue-600 font-semibold pb-10">package 1</h2> */}
-              <li className="py-2 font-bold text-center my-5">
+              <li className="lg:py-2 font-bold  list-none text-center my-5">
                 Makkah Dar Al Tauhid Intercontinental BB{" "}
               </li>
 

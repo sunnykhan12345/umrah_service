@@ -18,16 +18,20 @@ const page = () => {
       <div className="bg-customBackground py-10 ">
         <div className="lg:container mx-auto px-5">
           <div className="">
+            -
             <div className="flex items-start flex-wrap gap-5">
               {/* First Card */}
-              <div className="w-full md:w-[100%] lg:w-[70%] bg-white shadow-lg rounded-lg  lg:p-4 p-2 ">
+              <div className="w-full md:w-[100%] lg:w-[70%] bg-white shadow-lg rounded-lg  lg:p-4 p-2  ">
                 <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 mx-auto">
                   {Dubai_Data.map((data) => (
-                    <div className="rounded-lg shadow-lg" key={data.id}>
+                    <div
+                      className="rounded-lg shadow-lg lg:mb-0 mb-7"
+                      key={data.id}
+                    >
                       <h4 className="py-2 text-[20px] font-semibold bg-blue-500 relative text-white rounded-tl-md rounded-tr-md text-center">
                         {data.day}
                       </h4>
-                      <span className="bg-[#FEF3E2] font-bold   absolute -rotate-6 -mt-16  p-3 rounded-tl-2xl text-black">
+                      <span className="bg-blue-700 opacity-70 font-bold   absolute -rotate-6 -mt-16  p-3 rounded-tl-2xl text-white">
                         {data.day}
                       </span>
                       <p className="text-center py-3 border-b text-lg font-bold capitalize">

@@ -5,7 +5,7 @@ import Image from "next/image";
 import { FourStar_Table } from "./components/FourStar_Table";
 const page = () => {
   return (
-    <div className="pb-40 lg:pt-20 pt-10  ">
+    <div className="lg:pb-20 pb-5 lg:pt-20 pt-10  ">
       <div className="lg:container mx-auto px-5 ">
         <div className="mb-20 text-center">
           <h1 className="text-4xl font-extrabold pb-3 text-gray-800 tracking-wider">

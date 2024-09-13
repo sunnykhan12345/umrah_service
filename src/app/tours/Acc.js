@@ -87,11 +87,11 @@ export function Acc() {
               <div className="flex items-center gap-x-6">
                 <MdFlightTakeoff className="w-5 h-5 text-red-600 flex-shrink-0" />
                 <div>
-                  <p className="text-lg font-semibold mb-[0.2rem] capitalize">
+                  <p className="text-lg font-semibold mb-[0.2rem] capitalize ">
                     departure city
                   </p>
                   <input
-                    className="outline-none border-none md:text-lg text-[13px]"
+                    className="outline-none border-none md:text-lg text-[13px] "
                     type="text"
                     placeholder="from where ?"
                   />
@@ -120,7 +120,7 @@ export function Acc() {
                     Departure
                   </p>
                   <input
-                    className="outline-none border-none md:text-lg text-sm"
+                    className="outline-none border-none md:text-lg text-sm py-2"
                     type="date"
                   />
                 </div>
@@ -156,7 +156,7 @@ export function Acc() {
                   className="rounded-md py-2 px-2 border-2 border-dashed focus:outline-none"
                 />
               </div>
-              <div className="">
+              <div className="lg:mx-0 mx-auto">
                 <button className="rounded-md py-2 px-2 border-2 border-dashed bg-red-500 text-white hover:bg-red-300 duration-500 ease-in-out hover:text-white focus:outline-none ">
                   Send Query
                 </button>

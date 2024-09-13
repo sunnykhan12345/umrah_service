@@ -1,7 +1,7 @@
 import React from "react";
 import Acc from "./Acc";
 
-const page = () => {
+const Page = () => {
   return (
     <div>
       <Acc />
@@ -9,6 +9,6 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
 
 // //

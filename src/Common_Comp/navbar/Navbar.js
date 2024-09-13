@@ -21,7 +21,10 @@ const Links = [
     name: "tours",
     url: "/tours",
   },
-  { id: 5, name: <Drop />, url: "/visa" },
+  { 
+    id: 5,
+     name: <Drop />,
+      url: "/visa" },
   {
     id: 6,
     name: "contact ",

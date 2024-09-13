@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -52,11 +53,11 @@ const Multi_Carasul = () => {
         <div
           key={item.id}
           className="flex sm:flex-row flex-col gap-5 py-6 px-4 bg-white cursor-pointer rounded-lg shadow-[0_4px_6px_rgba(0,0,0,0.1),0_1px_3px_rgba(0,0,0,0.08)] hover:shadow-xl transition-shadow duration-300 ease-in-out"
-          data-aos={window?.innerWidth >= 600 ? "fade-up" : null}
-          data-aos-duration={window?.innerWidth >= 600 ? "1000" : null}
-          data-aos-easing={
-            window?.innerWidth >= 600 ? "ease-in-out-quad" : null
-          }
+          // data-aos={window?.innerWidth >= 600 ? "fade-up" : null}
+          // data-aos-duration={window?.innerWidth >= 600 ? "1000" : null}
+          // data-aos-easing={
+          //   window?.innerWidth >= 600 ? "ease-in-out-quad" : null
+          // }
         >
           <Image
             src={item.img}

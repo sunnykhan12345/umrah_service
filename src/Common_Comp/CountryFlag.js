@@ -11,29 +11,39 @@ import tur from "../../public/images/tur.png";
 
 const CountryFlag = () => {
   const countries = [
-    { src: dubi, path: "/", alt: "Dubai Visit Visa", name: "Dubai Visit Visa" },
+    {
+      src: dubi,
+      path: "/dubai",
+      alt: "Dubai Visit Visa",
+      name: "Dubai Visit Visa",
+    },
     {
       src: singa,
-      path: "/",
+      path: "/singapore",
       alt: "Singapore Visit Visa",
       name: "Singapore Visit Visa",
     },
     {
       src: thi,
-      path: "/",
+      path: "/thailand",
       alt: "Thailand Visit Visa",
       name: "Thailand Visit Visa",
     },
     {
       src: mal,
-      path: "/",
+      path: "/malaysia",
       alt: "Malaysia Visit Visa",
       name: "Malaysia Visit Visa",
     },
-    { src: bal, path: "/", alt: "Balu Visit Visa", name: "Balu Visit Visa" },
+    {
+      src: bal,
+      path: "/balu",
+      alt: "Balu Visit Visa",
+      name: "Balu Visit Visa",
+    },
     {
       src: tur,
-      path: "/",
+      path: "/turkey",
       alt: "Turkey Visit Visa",
       name: "Turkey Visit Visa",
     },
@@ -44,7 +54,7 @@ const CountryFlag = () => {
       {countries.map((country, index) => (
         <Link
           key={index}
-          href="#"
+          href={country.path}
           className="bg-white flex items-center gap-4 border-2 border-gray-200 rounded-lg p-2 transition-shadow duration-300 hover:shadow-lg"
         >
           <Link href={country.path} className="flex-shrink-0">

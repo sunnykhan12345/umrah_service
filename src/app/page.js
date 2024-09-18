@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Home from "@/Common_Comp/Home";
 import Combos from "@/components/Combos";
 import Contact from "@/components/Contact";
@@ -10,13 +10,13 @@ import PopularToures from "@/components/PopularToures";
 import ServiceProvide from "@/components/ServiceProvide";
 import VisaConsultance from "@/components/VisaConsultance";
 // import ServiceSlider from "@/components/sliders/ServiceSlider"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 export default function HomePage() {
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
   return (
     <>
       {/* <Home /> */}
@@ -30,7 +30,7 @@ export default function HomePage() {
         <PlanTravel />
         <VisaConsultance />
         <Gallery />
-        <Contact />
+        {/* <Contact /> */}
       </div>
     </>
   );

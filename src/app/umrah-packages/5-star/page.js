@@ -22,7 +22,6 @@ const page = () => {
             All Inclusive Umrah Packages 2024
           </h2>
         </div>
-
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-3">
           <div className="bg-whte pb-5">
             <div className="lg:text-left text-center pb-10 ">

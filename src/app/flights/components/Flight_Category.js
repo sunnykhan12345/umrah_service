@@ -7,7 +7,7 @@ const Flight_Category = () => {
       <div className="lg:container mx-auto px-5 lg:py-20 py-10">
         <div className="bg-white rounded-lg shadow-lg p-5">
           <div className="flex lg:justify-start lg:items-start justify-center items-center">
-            <button className=" bg-slate-50 py-3 lg:px-6 px-2 text-blue-400 rounded-md border-2 border-dashed font-medium lg:text-lg text-base capitalize transform hover:bg-red-500 duration-500 ease-in-out hover:text-white">
+            <button className="bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 py-3 lg:px-6 px-2 text-white rounded-md border-2 border-dashed font-medium lg:text-lg text-base capitalize transform hover:bg-red-500 duration-500 ease-in-out hover:text-white">
               Welcome to binham Travels
             </button>
           </div>

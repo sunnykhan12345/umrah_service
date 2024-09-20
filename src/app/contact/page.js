@@ -1,16 +1,12 @@
 import Link from "next/link";
 import React from "react";
-import { IoLocation } from "react-icons/io5";
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { MdOutlineAttachEmail } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
 import Contact from "@/components/Contact";
 const page = () => {
   return (
     <>
       <div
-        className="bg-[#26355D] lg:h-72 sm:h-40 h-[136px]
+        className="bg-gradient-to-r border-t from-teal-400 via-blue-500 to-purple-600 lg:h-72 sm:h-40 h-[136px]
        flex flex-col justify-center items-center"
       >
         <div>

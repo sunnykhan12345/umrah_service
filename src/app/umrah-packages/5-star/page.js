@@ -59,7 +59,7 @@ const page = () => {
                   <h3 className="text-xl font-bold text-gray-800 capitalize">
                     Hotel Name
                   </h3>
-                  <button className="mt-6 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+                  <button className="mt-6 w-full bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600  text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
                     Book Now
                   </button>
                 </div>
@@ -90,7 +90,7 @@ const page = () => {
                   <h3 className="text-xl font-bold text-gray-800 capitalize">
                     Hotel Name
                   </h3>
-                  <button className="mt-6 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+                  <button className="mt-6 w-full bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600  text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
                     Book Now
                   </button>
                 </div>
@@ -121,7 +121,7 @@ const page = () => {
                   <h3 className="text-xl font-bold text-gray-800 capitalize">
                     Hotel Name
                   </h3>
-                  <button className="mt-6 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+                  <button className="mt-6 w-full bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600  text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
                     Book Now
                   </button>
                 </div>
@@ -165,7 +165,7 @@ const page = () => {
                   <h3 className="text-xl font-bold text-gray-800 capitalize">
                     Hotel Name
                   </h3>
-                  <button className="mt-6 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+                  <button className="mt-6 w-full bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600  text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
                     Book Now
                   </button>
                 </div>
@@ -196,7 +196,7 @@ const page = () => {
                   <h3 className="text-xl font-bold text-gray-800 capitalize">
                     Hotel Name
                   </h3>
-                  <button className="mt-6 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+                  <button className="mt-6 w-full bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600  text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
                     Book Now
                   </button>
                 </div>
@@ -227,7 +227,7 @@ const page = () => {
                   <h3 className="text-xl font-bold text-gray-800 capitalize">
                     Hotel Name
                   </h3>
-                  <button className="mt-6 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+                  <button className="mt-6 w-full bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600  text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
                     Book Now
                   </button>
                 </div>

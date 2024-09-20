@@ -9,19 +9,37 @@ import { IoStarHalf } from "react-icons/io5";
 
 const combose = [
   {
-    title: "My First Combose",
+    title: "dubai and baku",
     desc: "Typically used for displaying a combination of an image, title, description, and action button, combo cards are ideal for highlighting promotional offers, product details, or service packages.",
     img: gallery1,
     price: 296,
   },
   {
-    title: "My Second Combose",
+    title: "thailand malaysia / singapore",
     desc: "Combo cards often feature a responsive design to adapt to various screen sizes, ensuring a consistent user experience across all devices.",
     img: visa,
     price: 596,
   },
   {
-    title: "My Third Combose",
+    title: "dubai umrah",
+    desc: "Styled with shadows, rounded corners, and hover effects, combo cards enhance engagement and interactivity, capturing attention and driving user actions.",
+    img: visa1,
+    price: 256,
+  },
+  {
+    title: "maldives and srilanka",
+    desc: "Styled with shadows, rounded corners, and hover effects, combo cards enhance engagement and interactivity, capturing attention and driving user actions.",
+    img: visa1,
+    price: 256,
+  },
+  {
+    title: "umrah turkey ",
+    desc: "Styled with shadows, rounded corners, and hover effects, combo cards enhance engagement and interactivity, capturing attention and driving user actions.",
+    img: visa1,
+    price: 256,
+  },
+  {
+    title: "baku umrah",
     desc: "Styled with shadows, rounded corners, and hover effects, combo cards enhance engagement and interactivity, capturing attention and driving user actions.",
     img: visa1,
     price: 256,
@@ -35,7 +53,7 @@ const Combos = () => {
         <h2 className="lg:text-[35px] text-2xl font-bold text-black capitalize lg:mb-10 mb-6  border-l-8 border-blue-300 pl-4">
           Combos
         </h2>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8">
           {combose.map((card, index) => (
             <div
               key={index}

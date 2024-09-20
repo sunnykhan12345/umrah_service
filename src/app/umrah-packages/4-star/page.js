@@ -2,7 +2,7 @@ import React from "react";
 import { MockData } from "./components/MockData";
 import { FaStar } from "react-icons/fa";
 import Image from "next/image";
-import { FourStar_Table } from "./components/FourStar_Table";
+import { FourStar_Table } from "../../../Common_Comp/FourStar_Table";
 const page = () => {
   return (
     <div className="lg:pb-20 pb-5 lg:pt-20 pt-10  ">

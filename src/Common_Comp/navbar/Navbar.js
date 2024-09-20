@@ -37,7 +37,7 @@ const Navbar = () => {
   const pathname = usePathname();
   return (
     <>
-      <nav className="bg-blue-400  z-20 lg:py-5 py-1">
+      <nav className="bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600  z-20 lg:py-5 py-1">
         <div className="px-5 lg:px-40 text-white">
           <div className="flex justify-between items-center">
             {/* Logo Section */}

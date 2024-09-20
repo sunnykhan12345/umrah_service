@@ -4,7 +4,7 @@ import Footers from "@/Common_Comp/Footers";
 import Navbar from "@/Common_Comp/navbar/Navbar";
 import Whatsapp from "@/components/Whatsapp";
 import TopBar from "@/Common_Comp/navbar/TopBar";
-
+import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -20,11 +20,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <TopBar />
-        <Navbar />
-        {children}
-        <Footers />
-        <Whatsapp />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <TopBar />
+          <Navbar />
+          {children}
+          <Footers />
+          <Whatsapp />
+        </ThemeProvider>
       </body>
     </html>
   );

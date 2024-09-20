@@ -24,7 +24,7 @@ const MyForm = () => {
 
   return (
     <div className="lg:mt-10 mt-5">
-      <button className="bg-blue-500 text-center text-white capitalize font-bold lg:text-4xl text-lg w-full  lg:text-start py-3 px-2 rounded-md">
+      <button className="bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 text-center text-white capitalize font-bold lg:text-4xl text-lg w-full  lg:text-start py-3 px-2 rounded-md">
         request a callback
       </button>
       <form className="py-5 px-5" onSubmit={handleSubmit}>

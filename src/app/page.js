@@ -26,10 +26,10 @@ export default function HomePage() {
         <PopularToures />
         <Combos />
         {/* <ServiceSlider /> */}
-        <ServiceProvide />
-        <PlanTravel />
-        <VisaConsultance />
+        {/* <ServiceProvide /> */}
+        {/* <VisaConsultance /> */}
         <Gallery />
+        <PlanTravel />
         {/* <Contact /> */}
       </div>
     </>

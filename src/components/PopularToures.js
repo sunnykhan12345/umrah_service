@@ -37,15 +37,20 @@ const popularcard = [
     img: thailand,
     title: "turkey",
   },
+  {
+    id: 7,
+    img: thailand,
+    title: "turkey",
+  },
 ];
 const PopularToures = () => {
   return (
     <div className="mt-20  2xl:mt-0 from-blue-200 ">
       <div className="lg:container mx-auto px-5 ">
-        <h2 className=" lg:text-[35px] text-2xl font-bold font-Helvetica text-black capitalize lg:mb-10 mb-6 sm:text-start text-center border-l-8  border-blue-300 sm:py-2 py-1 sm:pl-2 pl-1 ">
+        <h2 className="lg:text-[35px] text-2xl font-bold font-Helvetica  text-black capitalize xl:my-10 2xl:my-10 lg:mb-10 mb-6 sm:text-start text-center border-l-8  border-blue-300 sm:py-2 py-1 sm:pl-2 pl-1 ">
           international tour&apos;s
         </h2>
-        <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-x-3 gap-y-5">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-x-3 gap-y-5">
           {popularcard.map((popcard) => (
             <div
               key={popcard.id}

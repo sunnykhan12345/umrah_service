@@ -59,7 +59,7 @@ export function TablePackage() {
     <Table className="min-w-full">
       <TableCaption></TableCaption>
       <TableHeader>
-        <TableRow className="bg-blue-400 text-white">
+        <TableRow className="bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600  text-white">
           <TableHead className="text-center w-[100px] border-r border-white">
             Makkah
           </TableHead>

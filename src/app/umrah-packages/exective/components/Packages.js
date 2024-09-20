@@ -117,7 +117,7 @@ const Packages = () => {
                     {" "}
                     ${card.price}
                   </h5>
-                  <button className="bg-blue-400 capitalize font-medium text-white lg:py-3 py-2 lg:px-5 px-4 rounded-2xl hover:opacity-70 duration-300 ease-in-out">
+                  <button className="bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 capitalize font-medium text-white lg:py-3 py-2 lg:px-5 px-4 rounded-2xl hover:opacity-70 duration-300 ease-in-out">
                     view more
                   </button>
                 </div>
@@ -133,8 +133,9 @@ const Packages = () => {
               <li className="lg:py-2 font-bold  list-none text-center my-5">
                 Makkah Dar Al Tauhid Intercontinental BB{" "}
               </li>
-
-              <TablePackage />
+              <div>
+                <TablePackage />
+              </div>
             </div>
           </div>
           {/* second */}

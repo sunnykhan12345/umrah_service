@@ -3,7 +3,7 @@ import Image from "next/image";
 import plan from "../../public/images/plan.jpg";
 const PlanTravel = () => {
   return (
-    <div className="lg:mt-20 mt-8">
+    <div className="lg:mt-20 mt-8 mb-10">
       <div className="lg:container mx-auto px-5 relative">
         <Image
           src={plan}

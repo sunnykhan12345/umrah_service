@@ -41,7 +41,7 @@ export function FiveStar_Table() {
     <Table className="min-w-full">
       <TableCaption></TableCaption>
       <TableHeader>
-        <TableRow className="bg-blue-400 text-white">
+        <TableRow className="bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600  text-white">
           <TableHead className="border-r-2 border-l-2 text-center w-[100px] capitalize">
             double
           </TableHead>

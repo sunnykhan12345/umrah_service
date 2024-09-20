@@ -13,37 +13,37 @@ const CountryFlag = () => {
   const countries = [
     {
       src: dubi,
-      path: "/dubai",
+      path: "/internationaltour/dubai",
       alt: "Dubai Visit Visa",
       name: "Dubai Visit Visa",
     },
     {
       src: singa,
-      path: "/singapore",
+      path: "/internationaltour/singapore",
       alt: "Singapore Visit Visa",
       name: "Singapore Visit Visa",
     },
     {
       src: thi,
-      path: "/thailand",
+      path: "/internationaltour/thailand",
       alt: "Thailand Visit Visa",
       name: "Thailand Visit Visa",
     },
     {
       src: mal,
-      path: "/malaysia",
+      path: "/internationaltour/malaysia",
       alt: "Malaysia Visit Visa",
       name: "Malaysia Visit Visa",
     },
     {
       src: bal,
-      path: "/balu",
+      path: "/internationaltour/balu",
       alt: "Balu Visit Visa",
       name: "Balu Visit Visa",
     },
     {
       src: tur,
-      path: "/turkey",
+      path: "/internationaltour/turkey",
       alt: "Turkey Visit Visa",
       name: "Turkey Visit Visa",
     },

@@ -76,7 +76,7 @@ const Multi_Carasul = () => {
             <h6 className="pb-7 md:text-[17px] text-base font-medium font-Helvetica">
               <b>{item.price}</b>
             </h6>
-            <button className="lg:py-4 lg:px-8 py-3 px-7 bg-[#2379BD] text-white rounded-[35px] font-normal font-Helvetica capitalize hover:opacity-50 duration-500 ease-in-out">
+            <button className="lg:py-4 lg:px-8 py-3 px-7 bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 text-white rounded-[35px] font-normal font-Helvetica capitalize hover:opacity-50 duration-500 ease-in-out">
               book now
             </button>
           </div>

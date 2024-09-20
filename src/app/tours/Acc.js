@@ -30,13 +30,13 @@ export function Acc() {
       <div className="flex gap-1">
         <Link
           href="/flights"
-          className="gap-1 flex items-center bg-blue-500 text-white lg:px-7 px-4 lg:py-2 py-1 rounded-tl-xl hover:opacity-70 duration-700"
+          className="gap-1 flex items-center bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 text-white lg:px-7 px-4 lg:py-2 py-1 rounded-tl-xl hover:opacity-70 duration-700"
         >
           <MdOutlineFlight className="lg:w-7 w-5 lg:h-7 h-5" />
           <h6 className="lg:text-[22px] text-sm font-medium">Flights</h6>
         </Link>
         <Link
-          href="#"
+          href="/umrah"
           className="gap-1 flex items-center bg-[#B31312] text-white lg:px-7 px-4 lg:py-2 py-1 hover:opacity-70 duration-700"
         >
           <Image
@@ -48,7 +48,7 @@ export function Acc() {
         </Link>
         <Link
           href="#"
-          className="gap-1 flex items-center bg-blue-500 text-white lg:px-7 px-4 lg:py-2 py-1 rounded-tr-xl hover:opacity-70 duration-700"
+          className="gap-1 flex items-center bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 text-white lg:px-7 px-4 lg:py-2 py-1 rounded-tr-xl hover:opacity-70 duration-700"
         >
           <Image
             src={visa}
